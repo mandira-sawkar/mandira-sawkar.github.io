@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi! I'm Abhishek, an Applied Scientist at [Amazon International Machine Learning](https://www.amazon.science/working-at-amazon/how-rajeev-rastogis-machine-learning-team-in-india-develops-innovations-for-customers-worldwide). We're a group of ~100 ML researchers working across Bangalore, Seattle, Sydney and Berlin, led by [Rajeev Rastogi](https://www.linkedin.com/in/rajeev-rastogi-5019701/?originalSubdomain=in)."
+title: "Hi! I'm Abhishek, an Applied Scientist at [Amazon International Machine Learning](https://www.amazon.science/working-at-amazon/how-rajeev-rastogis-machine-learning-team-in-india-develops-innovations-for-customers-worldwide)."
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,24 +8,23 @@ redirect_from:
   - /about.html
 ---
 
+We're a group of ~100 ML researchers working across Bangalore, Seattle, Sydney and Berlin, led by [Rajeev Rastogi](https://www.linkedin.com/in/rajeev-rastogi-5019701/?originalSubdomain=in). I research and train models for AutoML and NLP projects.
+
 <iframe style="padding-bottom: 1em;" src="https://www.youtube.com/embed/15sa6OeIWJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Bio: From 2017 to mid-2019 I was a Software Engineer. In late-2019, I moved to IML as a Research Engineer to build an Automated Machine Learning platform. I found ML research enjoyable, and in mid-2020 I enrolled in UT Austin's MSCS program to sharpen the saw. In late-2021, two things happened: (1) I published enough internal papers to become an Applied Scientist (2) I caught the NLP bug and started working on a task-oriented chatbot (training models for intent detection, retrieval and knowledge-base curation). Before all this, I completed my undergraduate from VJTI Mumbai in 2017.
 
-My work has been published at internal venues such as Amazon Machine Learning Conference (AMLC, ~30% acceptance rate). The AutoML platform (where I am now a technical lead) has been used by several teams to deploy 1,000+ models across 14 Amazon websites, driving $550 million revenue for Amazon businesses like [Subscribe and Save](https://www.amazon.com/b?node=5856181011). My work has also been adopted in external features like [AutoGluon's `infer_limit` feature](https://auto.gluon.ai/0.4.0/tutorials/tabular_prediction/tabular-indepth.html#inference-speed-as-a-fit-constraint) and presented at [ARD 2021](https://adivekar-utexas.github.io/files/Squeezing_the_last_DRiP_ARD_2021_slides.pdf) and [AIMLSys 2022](https://adivekar-utexas.github.io/files/AIMLSys_2022_demo_vF.pdf).
+**Bio:** From 2017 to 2019 I was a Software Engineer. In late-2019, I moved to Amazon IML as a Research Engineer to work on an Automated Machine Learning platform, EPS. I got hooked on ML research and by Fall 2020 had started a CS Masters at UT Austin to sharpen the saw. At the end of 2021, two things happened: (1) I published enough internal papers to become an Applied Scientist (2) I caught the NLP bug and started working on a task-oriented chatbot (training models for intent detection, information retrieval and knowledge-base curation). Before all this, I completed my undergraduate at VJTI Mumbai in 2017.
 
-In 2023, my focus will be NLP for dialogue and publishing my work externally. I've also taken a background interest in scaling Neural Networks; efforts in this direction include designing the setup for scheduling multiple experiments across a 800-GPU AWS cluster, which will be used to pre-train models on billion-row datasets.
+**Impact:** My work has been published at internal venues such as Amazon Machine Learning Conference (AMLC, ~30% acceptance rate, ~2,000 attendees). The AutoML platform (where I am now a technical lead) has been used by internal teams to deploy 1,000+ models across 14 Amazon websites, driving $550 million revenue for Amazon businesses like [Subscribe and Save](https://www.amazon.com/b?node=5856181011). My work has also been adopted in external features like [AutoGluon's `infer_limit` feature](https://auto.gluon.ai/0.4.0/tutorials/tabular_prediction/tabular-indepth.html#inference-speed-as-a-fit-constraint) and presented at [ARD 2021](https://adivekar-utexas.github.io/files/Squeezing_the_last_DRiP_ARD_2021_slides.pdf) and [AIMLSys 2022](https://adivekar-utexas.github.io/files/AIMLSys_2022_demo_vF.pdf).
 
-If you have a question about my journey from Software Engineer to ML researcher, do check out [this link](https://medium.com/@ardivekar/engineer-to-ml-scientist-notes-on-a-2-year-journey-of-growth-ed4d16d22044), and feel free to reach out.
+**Future Plans:** In 2023, my focus will be NLP for dialogue and publishing my work externally. I've also taken a background interest in scaling Neural Networks; efforts in this direction include designing architecture for scheduling multiple experiments across a 800-GPU AWS cluster, which will be used to pre-train multimodal Transformers on a billion-row dataset.
+
 
 Publications
-======
-
-<ul> 
-{% for post in site.publications %}
-  {% include archive-single-cv.html %}
-{% endfor %}
-</ul>
+------
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-short.html %}
+  {% endfor %}</ul>
 
 <!-- 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
