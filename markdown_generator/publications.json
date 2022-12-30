@@ -1,45 +1,45 @@
 [
     {
+        "title": "Squeezing the last DRiP: AutoML for cost-constrained Product classification",
         "pub_date": "2021-09-01", 
         "url_slug": "drip-paper", 
         "paper_url": "(internal)",
-        "title": "Squeezing the last DRiP: AutoML for cost-constrained Product classification",
-        "venue": "Amazon Machine Learning Conference (AMLC 2021)", 
-        "citation": "<u>Abhishek Divekar</u>*, Gaurav Manchanda*, Prit Raj, Abhishek Das, Karan Tanwar, Akshay Jagatap, Vinayak Puranik, Jagannathan Srinivasan, Ramakrishna Nalam, Nikhil Rasiwasia (2021). \"Squeezing the last DRiP: AutoML for cost-constrained product classification\" <i>Amazon Machine Learning Conference</i> (Poster, ~30% acceptance-rate)", 
+        "venue": "Amazon Machine Learning Conference (AMLC)", 
+        "citation": "<u>Abhishek Divekar</u>*, Gaurav Manchanda*, Prit Raj, Abhishek Das, Karan Tanwar, Akshay Jagatap, Vinayak Puranik, Jagannathan Srinivasan, Ramakrishna Nalam, Nikhil Rasiwasia (2021). \"Squeezing the last DRiP: AutoML for cost-constrained product classification\" <i>9th conference of Amazon Machine Learning (AMLC 2021)</i> (Poster, ~30% acceptance-rate)", 
         "excerpt": "This paper is about the number 1. The number 2 is left for future work."
     },
     {
+        "title": "CPP Multimodal AutoML Corpus and Benchmark",
         "pub_date": "2021-09-01", 
         "url_slug": "cpp-benchmark-paper", 
         "paper_url": "(internal)",
-        "title": "The CPP Multimodal AutoML Corpus and Benchmark",
-        "venue": "1st Workshop on MultiModal Learning and Fusion, AMLC 2021", 
-        "citation": "Andrew Borthwick, <u>Abhishek Divekar</u>, Nick Erickson, Fayaz Ahmed Farooque, Oleg Kim, Nikhil Rasiwasia, and Ethan Xu (2021). \"The CPP Multimodal AutoML Corpus and Benchmark\" <i>1st AMLC Workshop on MultiModal Learning and Fusion 2021</i> (Oral)", 
+        "venue": "1st Workshop on MultiModal Learning and Fusion, Amazon Machine Learning Conference", 
+        "citation": "Andrew Borthwick, <u>Abhishek Divekar</u>, Nick Erickson, Fayaz Ahmed Farooque, Oleg Kim, Nikhil Rasiwasia, and Ethan Xu. \"The CPP Multimodal AutoML Corpus and Benchmark\" <i>1st AMLC Workshop on MultiModal Learning and Fusion at the 9th conference of Amazon Machine Learning (AMLC 2021)</i> (Oral)", 
         "excerpt": "This paper is about the number 1. The number 2 is left for future work."
     },
     {
+        "title": "LEAP: LEAf node Predictions in the wild",
         "pub_date": "2021-03-01", 
         "url_slug": "leap-paper", 
         "paper_url": "(internal)",
-        "title": "LEAP: LEAf node Predictions in the wild",
-        "venue": "2nd ASCS Applied Science Workshop, 2021", 
-        "citation": "<u>Abhishek Divekar</u>, Vinayak Puranik, Zhenyu Shi, Jinmiao Fu, Nikhil Rasiwasia (2021). \"LEAP: LEAf node Predictions in the wild\" <i>2nd ASCS Applied Science Workshop, 2021</i> (Oral)", 
+        "venue": "2nd ASCS Applied Science Workshop", 
+        "citation": "<u>Abhishek Divekar</u>, Vinayak Puranik, Zhenyu Shi, Jinmiao Fu, Nikhil Rasiwasia. \"LEAP: LEAf node Predictions in the wild\" <i>2nd ASCS Applied Science Workshop, 2021</i> (Oral)", 
         "excerpt": "This paper is about the number 1. The number 2 is left for future work."
     },
     {
+        "title": "Entity Prediction Service: a configurable, end-to-end AutoML system",
         "pub_date": "2020-09-01", 
         "url_slug": "eps-paper", 
         "paper_url": "(internal)",
-        "title": "EPS: a configurable, end-to-end AutoML system",
-        "venue": "Workshop on Automated Machine Learning, AMLC 2020", 
-        "citation": "Gaurav Manchanda*, <u>Abhishek Divekar</u>*, Akshay Jagatap, Prit Raj, Vinayak Puranik, Nikhil Rasiwasia, Ramakrishna Nalam, Jagannathan Srinivasa (2020). \"EPS: a configurable, end-to-end AutoML system\" <i>Workshop on Automated Machine Learning, AMLC 2020</i> (Poster)",
+        "venue": "Workshop on Automated Machine Learning, Amazon Machine Learning Conference", 
+        "citation": "Gaurav Manchanda*, <u>Abhishek Divekar</u>*, Akshay Jagatap, Prit Raj, Vinayak Puranik, Nikhil Rasiwasia, Ramakrishna Nalam, Jagannathan Srinivasa (2020). \"EPS: a configurable, end-to-end AutoML system\" <i>Workshop on Automated Machine Learning at the 8th conference of Amazon Machine Learning (AMLC 2020)</i> (Poster)",
         "excerpt": "This paper is about the number 1. The number 2 is left for future work."
     },
     {
+        "title": "Benchmarking datasets for Anomaly-based Network Intrusion Detection: KDD CUP 99 alternatives",
         "pub_date": "2018-10-25", 
         "url_slug": "kddcup99-paper", 
         "paper_url": "https://arxiv.org/abs/1811.05372",
-        "title": "Benchmarking datasets for Anomaly-based Network Intrusion Detection: KDD CUP 99 alternatives",
         "venue": "IEEE International Conference on Computing, Communication and Security, 2018", 
         "citation": "<u>Abhishek Divekar</u>, Meet Parekh, Vaibhav Savla, Rudra Mishra, and Mahesh Shirole (2018). \"Benchmarking datasets for Anomaly-based Network Intrusion Detection: KDD CUP 99 alternatives\" <i>IEEE International Conference on Computing, Communication and Security 2018</i> (Oral)",
         "excerpt": "This paper is about the number 1. The number 2 is left for future work."
