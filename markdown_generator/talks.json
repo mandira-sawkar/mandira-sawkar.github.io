@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Flexible AutoML: Accelerating AutoML adoption across Amazon",
+        "type": "Talk",
+        "venue": "2nd International Conference on AI-ML Systems (AIMLSys 2022)", 
+        "talk_date": "2022-10-07", 
+        "url_slug": "litmus-aimlsys-2022-talk", 
+        "teaser_url": "Flexible-AutoML-paradigm.png",
+        "video_url": "",
+        "slides_url": "https://adivekar-utexas.github.io/files/AIMLSys_2022_demo_vF.pdf",
+        "location": "Virtual",
+        "excerpt": "Current AutoML systems consider only two scenarios: (I) AutoML model meets performance bar, or (II) model misses performance bar. Efforts have been dedicated to improving this ratio, but common issues are not addressed: (III) model missed performance bar by 1% (IV) model is too slow in production (V) Custom model needs 6+ months to deploy. Different AutoML user-personas (Data Scientists, Engineers, Non-Tech) face different issues depending on their background. Flexible AutoML is a paradigm which addresses the needs of all personas. We propose an experimentation platform, Litmus, which provides convenient interfaces for experimentation for each user-persona, is exetensible to new ML paradigms, and scales to large models and datasets. We discuss how Litmus accelerates AutoML adoption across Amazon."
+    },
+    {
+        "title": "Supervised Learning (Decision Trees, Bagging and Boosting algorithms)",
+        "type": "Lecture",
+        "venue": "Amazon ML Summer School 2022", 
+        "talk_date": "2022-06-14", 
+        "url_slug": "ml-summer-school-2022-lecture", 
+        "teaser_url": "ML-Summer-School-2022-AdaBoost.png",
+        "video_url": "",
+        "slides_url": "https://adivekar-utexas.github.io/files/ML-Summer-School-2022-Supervised-Learning-part-2-Abhishek-slides.pdf",
+        "location": "Virtual",
+        "excerpt": "I was an instructor at Amazon ML Summer School 2022, which enrolled ~3,000 Indian undergraduate students and helped them learn key ML technologies from Amazon Scientists, making them industry ready for science careers. My role involved teaching a 1-hour long module on Supervised Learning and a 3-hour Q&A session to clarify student questions."
+    },
+    {
+        "title": "Squeezing the last DRiP: AutoML for Cost-constrained Product Classification",
+        "type": "Talk",
+        "venue": "Amazon Research Days 2021 conference", 
+        "talk_date": "2021-10-26", 
+        "url_slug": "drip-ard-2021-talk", 
+        "teaser_url": "DRiP-results.png",
+        "video_url": "",
+        "slides_url": "https://adivekar-utexas.github.io/files/Squeezing_the_last_DRiP_ARD_2021_slides.pdf",
+        "location": "Virtual",
+        "excerpt": ""
+    }
+]

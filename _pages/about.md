@@ -15,12 +15,12 @@ We're a group of ~100 ML researchers working across Bangalore, Seattle, Sydney a
 
 **Bio:** From 2017 to 2019 I was a Software Engineer. In late-2019, I moved to Amazon IML as a Research Engineer to work on an Automated Machine Learning platform, EPS. I got hooked on ML research and by Fall 2020 had started a CS Masters at UT Austin to sharpen the saw. At the end of 2021, two things happened: (1) I published enough internal papers to become an Applied Scientist (2) I caught the NLP bug and started working on a task-oriented chatbot (training models for intent detection, information retrieval and knowledge-base curation). Before all this, I completed my undergraduate at VJTI Mumbai in 2017.
 
-**Impact:** My work has been published at internal venues such as Amazon Machine Learning Conference (AMLC, ~30% acceptance rate, ~2,000 attendees). The AutoML platform (where I am now a technical lead) has been used by internal teams to deploy 1,000+ models across 14 Amazon websites, driving $550 million revenue for Amazon businesses like [Subscribe and Save](https://www.amazon.com/b?node=5856181011). My work has also been adopted in external features like [AutoGluon's `infer_limit` feature](https://auto.gluon.ai/0.4.0/tutorials/tabular_prediction/tabular-indepth.html#inference-speed-as-a-fit-constraint) and presented at [ARD 2021](https://adivekar-utexas.github.io/files/Squeezing_the_last_DRiP_ARD_2021_slides.pdf) and [AIMLSys 2022](https://adivekar-utexas.github.io/files/AIMLSys_2022_demo_vF.pdf).
+**Impact:** My work has been published at internal venues such as Amazon Machine Learning Conference (AMLC, ~30% acceptance rate, 2k-5k attendees). The AutoML platform (where I am now a technical lead) has been used by internal teams to deploy 1,000+ models across 14 Amazon websites, driving $550 million revenue for Amazon businesses like [Subscribe and Save](https://www.amazon.com/b?node=5856181011). My work has also been adopted in external features like [AutoGluon's `infer_limit` feature](https://auto.gluon.ai/0.4.0/tutorials/tabular_prediction/tabular-indepth.html#inference-speed-as-a-fit-constraint) and presented at [ARD 2021](https://adivekar-utexas.github.io/files/Squeezing_the_last_DRiP_ARD_2021_slides.pdf) and [AIMLSys 2022](https://adivekar-utexas.github.io/files/AIMLSys_2022_demo_vF.pdf).
 
 **Future Plans:** In 2023, my focus will be NLP for dialogue and publishing my work externally. I've also taken a background interest in scaling Neural Networks; efforts in this direction include designing architecture for scheduling multiple experiments across a 800-GPU AWS cluster, which will be used to pre-train multimodal Transformers on a billion-row dataset.
 
 
-Publications
+Publications (➔[Abstracts](https://adivekar-utexas.github.io/publications/))
 ------
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-short.html %}

@@ -15,22 +15,16 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <li>
-    <p style="margin: 0;">
-      {% if post.citation %} 
-      {{ post.citation }} 
-      {% endif %}
-      {% if post.paperurl %} 
-        {% if post.paperurl contains "internal" %} 
-          {% if post.alternativeurl %} 
-            ({{ post.alternativeurl }})
-          {% else %}
-            (Internal venue) 
-          {% endif %}
-        {% else %}
-          (<a href="{{ post.paperurl }}">{{ post.paperurl }}</a>)
-        {% endif %}
-      {% endif %}
-    </p>
+    <h3 class="archive__item-title" itemprop="headline">
+      {{ title }}
+    </h3>
+    {% if post.date %}
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>
+    {% endif %}
+    {% if post.venue%}
+      <p style="margin: 0;">{{post.type}} at {{ post.venue }}, {{post.location}}</p>
+    {% endif %}
     </li>
- </article>
+  </article>
 </div>
+

@@ -31,14 +31,14 @@ Work experience
 
 * **Dec 2021 - Present: Applied Scientist II, Amazon.**
   * ML modeling for a task-oriented chatbot that answers factual questions about products on [amazon.in](https://www.amazon.in/). Responsibilities: Intent detection, information retrieval, and knowledge-base curation models.
-  * Led product design, implementation and roadmap-planning for production launch of new AutoML platform (Litmus) aimed at accelerating AutoML experimentation for Scientists and Engineers.
+  * Led product design, implementation and roadmap-planning for production launch of new AutoML platform (Litmus) aimed at accelerating AutoML experimentation for Scientists and Engineers ([Talk at AIMLSys 2022](https://adivekar-utexas.github.io/files/AIMLSys_2022_demo_vF.pdf)).
   * Designed and implemented APIs for Unified Task Framework, an extensible software framework which facilitates extreme interoperability and reuse at all levels: model artifacts, algorithm training/inference code, or entire ML pipelines.
-  * Developed Litmus Scalable Dataframe, an efficient drop-replacement for Pandas dataframe which using heterogenous underlying datastructures (list of dicts, Pandas, Dask, cuDF, etc). Compared to native Pandas, LitSDF achieves 15.2x improvement in data-processing speed during realtime ML deployments and 27.7x during batch deployments. [External talk at AIMLSys 2022](https://adivekar-utexas.github.io/files/AIMLSys_2022_demo_vF.pdf).
+  * Developed Litmus Scalable Dataframe, an efficient drop-replacement for Pandas dataframe which using heterogenous underlying datastructures (list of dicts, Pandas, Dask, cuDF, etc). Compared to native Pandas, LitSDF achieves 15.2x improvement in data-processing speed during realtime ML deployments and 27.7x during batch deployments. 
 
 * **Oct 2020 - Nov 2021: Research Engineer II, Amazon.**
   * Used AmaBERT (BERT-Base pre-finetuned on Amazon product text), to classify products into 10,000+ browsable categories within the Amazon product taxonomy. Increased classification accuracy over existing multi-task FastText model by ~7% (62% to 69%).
   * Co-authored internal papers:
-    * "Squeezing the last DRiP: AutoML for cost-constrained Product classification" (Poster at AMLC 2021). [External talk at Amazon Research Days 2021](https://adivekar-utexas.github.io/files/Squeezing_the_last_DRiP_ARD_2021_slides.pdf)
+    * "Squeezing the last DRiP: AutoML for cost-constrained Product classification" (Poster at AMLC 2021) ([Talk at Amazon Research Days 2021](https://adivekar-utexas.github.io/files/Squeezing_the_last_DRiP_ARD_2021_slides.pdf)).
     * "CPP Multimodal AutoML Corpus and Benchmark" (Oral at AMLC 2021 Multi-modal workshop).
     * "LEAP: LEAf node Predictions in the wild" (2nd ASCS Applied Science Workshop).
 
@@ -70,7 +70,7 @@ Skills
   * Academic: LaTeX, ReadCube Papers, ResearchRabbit.ai.
   * Cloud: Amazon Web Services (Sagemaker, StepFunctions, Elastic Map Reduce, Batch, DynamoDB, EC2, S3).
 
-Publications
+Publications (➔[Abstracts](https://adivekar-utexas.github.io/publications/))
 ------
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-short.html %}
@@ -79,10 +79,10 @@ Publications
 Talks
 ------
   <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
+    {% include archive-single-short-talk.html %}
   {% endfor %}</ul>
   
-Projects
+Publications (➔[Abstracts](https://adivekar-utexas.github.io/publications/))
 ------
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
@@ -91,7 +91,7 @@ Projects
 Service
 ------
 * Reviewer for <i>Amazon Machine Learning Conference (AMLC)</i>, 2022 (NLP and ML Tools tracks).
-* Reviewer for <a href="https://www.aimlsystems.org/2022/"><i>2nd International Conference on AI-ML Systems (AIMLSys)</i>, 2022</a>.
+* Reviewer for <i>2nd International Conference on AI-ML Systems (AIMLSys)</i>.
 * Instructor, Amazon ML Summer School 2022. [Press Coverage](https://timesofindia.indiatimes.com/gadgets-news/amazon-india-announces-second-edition-of-machine-learning-summer-school-how-to-apply-and-other-details/articleshow/92076056.cms).
   * I was an instructor at Amazon ML Summer School 2022, which enrolled ~3,000 Indian undergraduate students and helped them learn key ML technologies from Amazon Scientists, making them industry ready for science careers. My role involved teaching a 1-hour long module on Supervised Learning (Decision Trees, Bagging and Boosting algorithms), and a 3-hour Q&A session to clarify student questions on the content.
 * Mentored Applied Science Interns: Mudit Agarwal (2021) and Kush Gupta (2022).
