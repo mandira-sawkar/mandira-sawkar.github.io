@@ -20,11 +20,26 @@ We're a group of ~100 ML researchers working across Bangalore, Seattle, Sydney a
 **Future Plans:** In 2023, my focus will be NLP for dialogue and publishing my work externally. I've also taken a background interest in scaling Neural Networks; efforts in this direction include designing architecture for scheduling multiple experiments across a 800-GPU AWS cluster, which will be used to pre-train multimodal Transformers on a billion-row dataset.
 
 
-Publications (➔[Abstracts](https://adivekar-utexas.github.io/publications/))
+Publications 
 ------
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-short.html %}
-  {% endfor %}</ul>
+(➔<a href="https://adivekar-utexas.github.io/publications/">Abstracts</a>)
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-short.html %}
+{% endfor %}</ul>
+  
+Talks and presentations
+------
+(➔<a href="https://adivekar-utexas.github.io/talks/">Slides and Recording</a>)
+<ul>{% for post in site.talks reversed %}
+  {% include archive-single-short-talk.html %}
+{% endfor %}</ul>
+  
+Projects
+------
+(➔<a href="https://adivekar-utexas.github.io/talks/">Technical Reports, Code</a>)
+<ul>{% for post in site.teaching %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
 
 <!-- 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).

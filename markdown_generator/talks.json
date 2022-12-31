@@ -9,7 +9,7 @@
         "video_url": "",
         "slides_url": "https://adivekar-utexas.github.io/files/AIMLSys_2022_demo_vF.pdf",
         "location": "Virtual",
-        "excerpt": "Current AutoML systems consider only two scenarios: (I) AutoML model meets performance bar, or (II) model misses performance bar. Efforts have been dedicated to improving this ratio, but common issues are not addressed: (III) model missed performance bar by 1% (IV) model is too slow in production (V) Custom model needs 6+ months to deploy. Different AutoML user-personas (Data Scientists, Engineers, Non-Tech) face different issues depending on their background. Flexible AutoML is a paradigm which addresses the needs of all personas. We propose an experimentation platform, Litmus, which provides convenient interfaces for experimentation for each user-persona, is exetensible to new ML paradigms, and scales to large models and datasets. We discuss how Litmus accelerates AutoML adoption across Amazon."
+        "excerpt": "Current AutoML systems consider only two scenarios: (i) AutoML model meets performance bar, or (ii) model misses performance bar. Efforts have been dedicated to improving this ratio, but common issues are not addressed: (iii) model missed performance bar by 1% (iv) model is too slow in production (v) Custom model needs 6+ months to deploy. Different AutoML user-personas (Data Scientists, Engineers, Non-Tech) face different issues depending on their background. Flexible AutoML is a paradigm which addresses the needs of all personas. We present an experimentation platform, Litmus, which provides convenient interfaces for experimentation for each user-persona, is exetensible to new ML paradigms, and scales to large models and datasets. We further discuss how Litmus accelerates AutoML adoption across Amazon."
     },
     {
         "title": "Supervised Learning (Decision Trees, Bagging and Boosting algorithms)",
@@ -21,7 +21,7 @@
         "video_url": "",
         "slides_url": "https://adivekar-utexas.github.io/files/ML-Summer-School-2022-Supervised-Learning-part-2-Abhishek-slides.pdf",
         "location": "Virtual",
-        "excerpt": "I was an instructor at Amazon ML Summer School 2022, which enrolled ~3,000 Indian undergraduate students and helped them learn key ML technologies from Amazon Scientists, making them industry ready for science careers. My role involved teaching a 1-hour long module on Supervised Learning and a 3-hour Q&A session to clarify student questions."
+        "excerpt": "Amazon ML Summer School 2022 was an initiative which enrolled ~3,000 Indian undergraduate students and helped them learn key ML technologies from Amazon Scientists. I taught a module on Supervised Learning covering Decision Trees, Bagging and Boosting algorithms, followed by a 3-hour Q&A session to clarify student questions."
     },
     {
         "title": "Squeezing the last DRiP: AutoML for Cost-constrained Product Classification",
@@ -33,6 +33,6 @@
         "video_url": "",
         "slides_url": "https://adivekar-utexas.github.io/files/Squeezing_the_last_DRiP_ARD_2021_slides.pdf",
         "location": "Virtual",
-        "excerpt": ""
+        "excerpt": "Current AutoML research aims to minimize the Discovery time of high-performing models, e.g. \"find best model within 30 mins\". However, ideally most models are trained, and used in production for months before refresh, meaning the costs operational cost of running an AutoML model in production far exceeds the one-time discovery cost. Instead, can AutoML systems discover high-performing models which operate within an explicit budget? We propose a new AutoML paradigm, DRiP (Discover-Refine-Productionize) which not only allows cost-backwards optimization, but produces a cost-performance tradeoff curve for users to choose an appropriate point. We compare to AutoGluon v0.2 and find that DRiP AutoML can be tuned to achieve: (i) On-par performance at low cost (ii) Minimum overall cost (iii) Maximum overall performance."
     }
 ]

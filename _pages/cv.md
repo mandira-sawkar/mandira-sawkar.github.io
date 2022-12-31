@@ -13,7 +13,7 @@ Downloadable PDF: Coming soon!
 
 Cover Letter
 ------
-I work at [Amazon International Machine Learning](https://www.amazon.science/working-at-amazon/how-rajeev-rastogis-machine-learning-team-in-india-develops-innovations-for-customers-worldwide), where I research and train models for AutoML and NLP projects. I helped build and currently lead Tech efforts for an AutoML platform, EPS. EPS has been used by internal teams to deploy 1,000+ models across 14 Amazon websites, driving $550 million revenue for Amazon businesses like [Subscribe and Save](https://www.amazon.com/b?node=5856181011). My Science work has been published internally at [Amazon Machine Learning Conference (AMLC)](https://www.amazon.science/videos-webinars/amazons-annual-machine-learning-conference-featured-presentations-from-thought-leaders-within-academia) and adopted in external features like [AutoGluon's `infer_limit` feature](https://auto.gluon.ai/0.4.0/tutorials/tabular_prediction/tabular-indepth.html#inference-speed-as-a-fit-constraint). I am currently interested in NLP modeling for a task-oriented chatbot which answers factual products-related questions on [amazon.in](https://www.amazon.in/).
+I work at [Amazon International Machine Learning](https://www.amazon.science/working-at-amazon/how-rajeev-rastogis-machine-learning-team-in-india-develops-innovations-for-customers-worldwide), where I research and train models for AutoML and NLP projects. I helped build and currently lead Science efforts for an AutoML platform, EPS. EPS has been used by internal teams to deploy 1,000+ models across 14 Amazon websites, driving $550 million revenue for Amazon businesses like [Subscribe and Save](https://www.amazon.com/b?node=5856181011). My Science work has been published internally at [Amazon Machine Learning Conference (AMLC)](https://www.amazon.science/videos-webinars/amazons-annual-machine-learning-conference-featured-presentations-from-thought-leaders-within-academia) and adopted in external features like [AutoGluon's `infer_limit` feature](https://auto.gluon.ai/0.4.0/tutorials/tabular_prediction/tabular-indepth.html#inference-speed-as-a-fit-constraint). Since early 2022, I have been interested in NLP modeling for a task-oriented chatbot which answers factual product-related questions on [amazon.in](https://www.amazon.in/).
 
 
 Education
@@ -70,29 +70,34 @@ Skills
   * Academic: LaTeX, ReadCube Papers, ResearchRabbit.ai.
   * Cloud: Amazon Web Services (Sagemaker, StepFunctions, Elastic Map Reduce, Batch, DynamoDB, EC2, S3).
 
-Publications (➔[Abstracts](https://adivekar-utexas.github.io/publications/))
+
+Publications 
 ------
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-short.html %}
-  {% endfor %}</ul>
+(➔<a href="https://adivekar-utexas.github.io/publications/">Abstracts</a>)
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-short.html %}
+{% endfor %}</ul>
   
-Talks
+Talks and presentations
 ------
-  <ul>{% for post in site.talks %}
-    {% include archive-single-short-talk.html %}
-  {% endfor %}</ul>
+(➔<a href="https://adivekar-utexas.github.io/talks/">Slides and Recording</a>)
+<ul>{% for post in site.talks reversed %}
+  {% include archive-single-short-talk.html %}
+{% endfor %}</ul>
   
-Publications (➔[Abstracts](https://adivekar-utexas.github.io/publications/))
+Projects
 ------
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+(➔<a href="https://adivekar-utexas.github.io/talks/">Technical Reports, Code</a>)
+<ul>{% for post in site.teaching %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
   
+
 Service
 ------
 * Reviewer for <i>Amazon Machine Learning Conference (AMLC)</i>, 2022 (NLP and ML Tools tracks).
 * Reviewer for <i>2nd International Conference on AI-ML Systems (AIMLSys)</i>.
-* Instructor, Amazon ML Summer School 2022. [Press Coverage](https://timesofindia.indiatimes.com/gadgets-news/amazon-india-announces-second-edition-of-machine-learning-summer-school-how-to-apply-and-other-details/articleshow/92076056.cms).
-  * I was an instructor at Amazon ML Summer School 2022, which enrolled ~3,000 Indian undergraduate students and helped them learn key ML technologies from Amazon Scientists, making them industry ready for science careers. My role involved teaching a 1-hour long module on Supervised Learning (Decision Trees, Bagging and Boosting algorithms), and a 3-hour Q&A session to clarify student questions on the content.
 * Mentored Applied Science Interns: Mudit Agarwal (2021) and Kush Gupta (2022).
 * Took ~90 interviews for Applied Science and Software Development Engineer roles.
+* Instructor, Amazon ML Summer School 2022. [Press Coverage](https://timesofindia.indiatimes.com/gadgets-news/amazon-india-announces-second-edition-of-machine-learning-summer-school-how-to-apply-and-other-details/articleshow/92076056.cms).
+  * I was an instructor at Amazon ML Summer School 2022, which enrolled ~3,000 Indian undergraduate students and helped them learn key ML technologies from Amazon Scientists, making them industry ready for science careers. My role involved teaching a 1-hour long module on Supervised Learning (Decision Trees, Bagging and Boosting algorithms), and a 3-hour Q&A session to clarify student questions on the content.
