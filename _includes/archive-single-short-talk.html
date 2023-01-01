@@ -19,10 +19,16 @@
       {{ title }}
     </h3>
     {% if post.date %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>
+      <p class="page__meta"><i class="fas fa-calendar" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>
     {% endif %}
     {% if post.venue%}
       <p style="margin: 0;">{{post.type}} at {{ post.venue }}, {{post.location}}</p>
+    {% endif %}
+    {% if post.videourl or post.slidesurl %}
+      <p style="margin: 0;">
+        {% if post.videourl %} [<a href="{{ post.videourl }}">Recording</a>] {% endif %}
+        {% if post.slidesurl %} [<a href="{{ post.slidesurl }}">Slides</a>] {% endif %}
+      </p>
     {% endif %}
     </li>
   </article>

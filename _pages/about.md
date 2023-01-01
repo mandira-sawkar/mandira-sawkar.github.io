@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi! I'm Abhishek, an Applied Scientist at [Amazon International Machine Learning](https://www.amazon.science/working-at-amazon/how-rajeev-rastogis-machine-learning-team-in-india-develops-innovations-for-customers-worldwide)."
+title: "Hi! I'm Abhishek, an Applied Scientist at [Amazon International Machine Learning](https://www.amazon.science/working-at-amazon/how-rajeev-rastogis-machine-learning-team-in-india-develops-innovations-for-customers-worldwide)"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -15,31 +15,31 @@ We're a group of ~100 ML researchers working across Bangalore, Seattle, Sydney a
 
 **Bio:** From 2017 to 2019 I was a Software Engineer. In late-2019, I moved to Amazon IML as a Research Engineer to work on an Automated Machine Learning platform, EPS. I got hooked on ML research and by Fall 2020 had started a CS Masters at UT Austin to sharpen the saw. At the end of 2021, two things happened: (1) I published enough internal papers to become an Applied Scientist (2) I caught the NLP bug and started working on a task-oriented chatbot (training models for intent detection, information retrieval and knowledge-base curation). Before all this, I completed my undergraduate at VJTI Mumbai in 2017.
 
-**Impact:** My work has been published at internal venues such as Amazon Machine Learning Conference (AMLC, ~30% acceptance rate, 2k-5k attendees). The AutoML platform (where I am now a technical lead) has been used by internal teams to deploy 1,000+ models across 14 Amazon websites, driving $550 million revenue for Amazon businesses like [Subscribe and Save](https://www.amazon.com/b?node=5856181011). My work has also been adopted in external features like [AutoGluon's `infer_limit` feature](https://auto.gluon.ai/0.4.0/tutorials/tabular_prediction/tabular-indepth.html#inference-speed-as-a-fit-constraint) and presented at [ARD 2021](https://adivekar-utexas.github.io/files/Squeezing_the_last_DRiP_ARD_2021_slides.pdf) and [AIMLSys 2022](https://adivekar-utexas.github.io/files/AIMLSys_2022_demo_vF.pdf).
+**Impact:** My work has been published at internal venues such as [Amazon Machine Learning Conference (AMLC)](https://www.amazon.science/videos-webinars/amazons-annual-machine-learning-conference-featured-presentations-from-thought-leaders-within-academia). The AutoML platform (where I am now a technical lead) has been used by internal teams to deploy 1,000+ models across 14 Amazon websites, driving over $550 million dollars in revenue for Amazon businesses like [Subscribe and Save](https://www.amazon.com/b?node=5856181011). My work has also been adopted in external features like [AutoGluon's `infer_limit` feature](https://auto.gluon.ai/0.4.0/tutorials/tabular_prediction/tabular-indepth.html#inference-speed-as-a-fit-constraint) and presented at [ARD 2021](https://adivekar-utexas.github.io/files/Squeezing_the_last_DRiP_ARD_2021_slides.pdf) and [AIMLSys 2022](https://adivekar-utexas.github.io/files/AIMLSys_2022_demo_vF.pdf).
 
 **Future Plans:** In 2023, my focus will be NLP for dialogue and publishing my work externally. I've also taken a background interest in scaling Neural Networks; efforts in this direction include designing architecture for scheduling multiple experiments across a 800-GPU AWS cluster, which will be used to pre-train multimodal Transformers on a billion-row dataset.
 
-
 Publications 
 ------
-(➔<a href="https://adivekar-utexas.github.io/publications/">Abstracts</a>)
+(➔ <a href="https://adivekar-utexas.github.io/publications/">Abstracts</a>)
 <ul>{% for post in site.publications reversed %}
-  {% include archive-single-short.html %}
+  {% include archive-single-short-publication.html %}
 {% endfor %}</ul>
   
 Talks and presentations
 ------
-(➔<a href="https://adivekar-utexas.github.io/talks/">Slides and Recording</a>)
+(➔ <a href="https://adivekar-utexas.github.io/talks/">Slides and Recordings</a>)
 <ul>{% for post in site.talks reversed %}
   {% include archive-single-short-talk.html %}
 {% endfor %}</ul>
   
 Projects
 ------
-(➔<a href="https://adivekar-utexas.github.io/talks/">Technical Reports, Code</a>)
-<ul>{% for post in site.teaching %}
-  {% include archive-single-cv.html %}
+(➔ <a href="https://adivekar-utexas.github.io/projects/">Details and Contribution</a>)
+<ul>{% for post in site.projects reversed %}
+  {% include archive-single-short-project.html %}
 {% endfor %}</ul>
+
 
 <!-- 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
@@ -65,7 +65,7 @@ The main configuration file for the site is in the base directory in [_config.ym
 
 Create content & metadata
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, _projects, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
 **Markdown generator**
 

@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Extending Whisper, OpenAI's Speech-to-Text Model",
+        "contributors": "Abhishek Divekar, Yosub Jung, Roshni Tayal",
+        "type": "Academic",
+        "project_date": "2022-12-05", 
+        "url_slug": "ut-mscs-case-studies-in-ml-project", 
+        "teaser_url": "whisper-wer-noisy-vs-quiet.png",
+        "report_url": "https://adivekar-utexas.github.io/files/UTCS-ML-Case-Studies-Extending-Whisper-OpenAIs-Speech-to-Text-Model.pdf",
+        "code_url": "",
+        "excerpt": "We study the performance of OpenAI's Whisper model, the state-of-the-art Speech-to-text model, in noisy urban environments. To do so, we create a dataset consisting of 134 minutes of us reading out loud in both quiet and noisy urban environments (subway, street and cafe) and manually annotating the recordings at 30 second intervals. Using a powerful multi-GPU AWS cluster and distributed computing framework Ray, we find that Whisper performs significantly worse on speeches recorded in noisy environments than on those recorded in quiet environments, in contrast to assertions made by Whisper authors. This performance gap is particularly severe for small Whisper models. This finding is concerning since the small models, due to its low inference-time, are most likely to be deployed on handheld devices (like smartphones), and thus more likely to be exposed to outside noise that can degrade speech-to-text performance. To improve performance, we fine-tune the HuggingFace Whisper implementation on a split of our collected data. We find that fine-tuning on single-speaker noisy speech improves average Word Error Rate (WER) by 2.81 (from 28.76 to 25.95) and fine-tuning on multi-speaker noisy speech improves average WER by 2.61 (from 28.76 to 26.15). Thus we are able to successfully adapt OpenAI Whisper to function reliably in noisy urban environments.",
+        "my_contribution": "Helped formulate research question, recorded and annotated speeches, coded and fine-tuned hundreds of HuggingFace Whisper models uinsg Ray distributed computing framework, tabulated results, minor rewriting."
+    },
+    {
+        "title": "Asking the Right Questions: Question Paraphrasing Using Cross-Domain Abstractive Summarization and Backtranslation",
+        "contributors": "Abhishek Divekar, Alex Stoken",
+        "type": "Academic",
+        "project_date": "2021-05-06", 
+        "url_slug": "ut-mscs-nlp-project", 
+        "teaser_url": "asking-the-right-questions-table.png",
+        "report_url": "https://adivekar-utexas.github.io/files/UTCS-NLP-Question-Paraphrasing-Using-Cross-Domain-Abstractive-Summarization-and-Backtranslation.pdf",
+        "code_url": "",
+        "excerpt": "A common issue when asking questions is that they might be prone to misinterpretation: most of us have experienced when a colleague or teacher misinterprets a question and provides an answer which is tangential to the information we desire, or incomplete. This problem is exacerbated over text, where visual and emotion cues are not transmittable. We hypothesize that question answering models face the same issues as the human responder in such situations: when asked an ambiguous question, they might be unsure what to retrieve from the given passage. We propose paraphrasing the question with pre-trained language models, to improve answer retrieval and robustness to ambiguous questions. We introduce a new scoring metric, GROK, to evaluate and select good paraphrases. We show that this metric improved upon paraphrase selection via beam search for downstream tasks, and that this metric combined with data augmentation via backtranslation increases question answering performance on the NewsQA and BioASQ datasets, improving EM by 2.5% and F1 by 1.9% over-and-above the baseline on the latter.",
+        "my_contribution": "Formulated research question and GROK metric, wrote code to generate abstractive summaries and ran experiments to train hundreds of BiLSTM models on AWS GPUs."
+    },
+    {
+        "title": "Autonomous agents for realtime multiplayer ice-hockey",
+        "contributors": "Abhishek Divekar, Jason Housman, Ankita Sinha, Alex Stoken",
+        "type": "Academic",
+        "project_date": "2020-12-14", 
+        "url_slug": "ut-mscs-deep-learning-project", 
+        "teaser_url": "autonomous-agents-ice-hockey.png",
+        "report_url": "https://adivekar-utexas.github.io/files/UTCS-Deep-Learning-Final-Autonomous-agents-for-realtime-multiplayer-ice-hockey.pdf",
+        "code_url": "",
+        "excerpt": "We design an automated agent to play 2-on-2 games in SuperTuxKart IceHockey. Our two-stage system composes of a \"vision\" stage which takes as input the image of the player's Field of View and predicts world-state attributes. For vision, we train a multi-task CenterNet model (with U-Net backend), to predict whether hockey puck was on-screen (classification), puck's x-y coordinates (aimpoint regression) and distance from player (regression). These are consumed by a \"controller\" stage which return actions that update the world-state by \"dribbling\" puck towards goal, or defending against the opposing AI team.",
+        "my_contribution": "Generated training dataset of 40k images, coded and trained multi-task CenterNet model for vision stage of pipeline, wrote sections of report."
+    },
+    {
+        "title": "SearchDistribute: webscraping search results on an academic budget",
+        "contributors": "Abhishek Divekar",
+        "type": "Academic",
+        "project_date": "2017-09-08", 
+        "url_slug": "vjti-search-distribute", 
+        "teaser_url": "",
+        "report_url": "",
+        "code_url": "https://github.com/ARDivekar/SearchDistribute",
+        "excerpt": "retrieves upto 250,000 Search engine results per day. With a $5/month VPN subscription, can extract upto 10,000+ search results per query per hour (120x cheaper than Google Search API). Built using Python and Selenium, coordinates multiple PhantomJS browser instances, each connected to a SOCKS5 proxy.",
+        "my_contribution": "Sole contributor."
+    }
+]
