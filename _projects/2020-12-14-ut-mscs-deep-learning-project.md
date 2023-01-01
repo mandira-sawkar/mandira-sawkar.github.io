@@ -1,6 +1,7 @@
 ---
 title: "Autonomous agents for realtime multiplayer ice-hockey"
 collection: projects
+urlslug: "ut-mscs-deep-learning-project"
 type: "Academic"
 permalink: /projects/2020-12-14-ut-mscs-deep-learning-project
 contributors: "Abhishek Divekar, Jason Housman, Ankita Sinha, Alex Stoken"

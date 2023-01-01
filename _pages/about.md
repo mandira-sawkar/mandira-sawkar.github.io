@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi! I'm Abhishek, an Applied Scientist at [Amazon International Machine Learning](https://www.amazon.science/working-at-amazon/how-rajeev-rastogis-machine-learning-team-in-india-develops-innovations-for-customers-worldwide)"
+title: "Hi! I'm Abhishek, an Applied Scientist at Amazon International Machine Learning"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-We're a group of ~100 ML researchers working across Bangalore, Seattle, Sydney and Berlin, led by [Rajeev Rastogi](https://www.linkedin.com/in/rajeev-rastogi-5019701/?originalSubdomain=in). I research and train models for AutoML and NLP projects.
+[Amazon International Machine Learning (IML)](https://www.amazon.science/working-at-amazon/how-rajeev-rastogis-machine-learning-team-in-india-develops-innovations-for-customers-worldwide) is a group of ~100 ML researchers working across Bangalore, Seattle, Sydney and Berlin, led by [Rajeev Rastogi](https://www.linkedin.com/in/rajeev-rastogi-5019701/?originalSubdomain=in). I research and train models for AutoML and NLP projects.
 
 <iframe style="padding-bottom: 1em;" src="https://www.youtube.com/embed/15sa6OeIWJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -21,21 +21,21 @@ We're a group of ~100 ML researchers working across Bangalore, Seattle, Sydney a
 
 Publications 
 ------
-(➔ <a href="https://adivekar-utexas.github.io/publications/">Abstracts</a>)
+<i class="fas fa-link" aria-hidden="true"></i> <a href="https://adivekar-utexas.github.io/publications/">Abstracts</a>
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-short-publication.html %}
 {% endfor %}</ul>
   
 Talks and presentations
 ------
-(➔ <a href="https://adivekar-utexas.github.io/talks/">Slides and Recordings</a>)
+<i class="fas fa-link" aria-hidden="true"></i> <a href="https://adivekar-utexas.github.io/talks/">Slides and Recordings</a>
 <ul>{% for post in site.talks reversed %}
   {% include archive-single-short-talk.html %}
 {% endfor %}</ul>
   
 Projects
 ------
-(➔ <a href="https://adivekar-utexas.github.io/projects/">Details and Contribution</a>)
+<i class="fas fa-link" aria-hidden="true"></i>  <a href="https://adivekar-utexas.github.io/projects/">Details and Contribution</a>
 <ul>{% for post in site.projects reversed %}
   {% include archive-single-short-project.html %}
 {% endfor %}</ul>

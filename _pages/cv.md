@@ -22,7 +22,7 @@ Education
   * Thesis: Machine Learning for Anomaly-based Network Intrusion Detection, supervised by Dr. Mahesh Shirole.
   * GPA: 8.74 on 10 ([Transcript](https://adivekar-utexas.github.io/files/Abhishek_Divekar_VJTI_BTech_Transcripts.pdf))
   * Coursework ("A" grades): Data Structures and Algorithms, Discrete Mathematics, Operating Systems, Data Mining, Embedded Systems.
-* **M.S. in Computer Science, The University of Texas at Austin, 2023 (expected)**
+* **M.S. in Computer Science, The University of Texas at Austin (expected Dec 2023)**
   * GPA: 4.0 ([Latest Transcript](https://adivekar-utexas.github.io/files/Abhishek_Divekar_University_of_Texas_Unofficial_Transcripts.pdf))
   * Coursework ("A" grades): Deep Learning, Advanced Linear Algebra for Computing, Natural Language Processing, Machine Learning, Online Learning and Optimization, Case Studies in Machine Learning.
 
@@ -33,7 +33,7 @@ Work experience
   * ML modeling for a task-oriented chatbot that answers factual questions about products on [amazon.in](https://www.amazon.in/). Responsibilities: Intent detection, information retrieval, and knowledge-base curation models.
   * Led product design, implementation and roadmap-planning for production launch of new AutoML platform (Litmus) aimed at accelerating AutoML experimentation for Scientists and Engineers ([Talk at AIMLSys 2022](https://adivekar-utexas.github.io/files/AIMLSys_2022_demo_vF.pdf)).
   * Designed and implemented APIs for Unified Task Framework, an extensible software framework which facilitates extreme interoperability and reuse at all levels: model artifacts, algorithm training/inference code, or entire ML pipelines.
-  * Developed Litmus Scalable Dataframe, an efficient drop-replacement for Pandas dataframe which using heterogenous underlying datastructures (list of dicts, Pandas, Dask, cuDF, etc). Compared to native Pandas, LitSDF achieves 15.2x improvement in data-processing speed during realtime ML deployments and 27.7x during batch deployments. 
+  * Developed Litmus Scalable Dataframe, an efficient drop-replacement for Pandas dataframe which using heterogeneous underlying data-structures (list of dicts, Pandas, Dask, cuDF, etc). Compared to native Pandas, LitSDF achieves 15.2x improvement in data-processing speed during realtime ML deployments and 27.7x during batch deployments. 
 
 * **Oct 2020 - Nov 2021: Research Engineer II, Amazon.**
   * Used AmaBERT (BERT-Base pre-finetuned on Amazon product text), to classify products into 10,000+ browsable categories within the Amazon product taxonomy. Increased classification accuracy over existing multi-task FastText model by ~7% (62% to 69%).
@@ -43,7 +43,7 @@ Work experience
     * "LEAP: LEAf node Predictions in the wild" (2nd ASCS Applied Science Workshop).
 
 * **Oct 2019 - Sep 2020: Research Engineer, Amazon.**
-  * Designed and implemented of data-processing nodes for an internal AutoML platform, contributing 160K lines of Python code. 
+  * Designed and implemented data-processing nodes for an internal AutoML platform, contributing 160K lines of Python code. 
   * Developed Docker containers to predict UNSPSC code for ~500MM products on Amazon.com. Developed Depth-first preprocessing which improved latency by 30-50%.
   * Co-authored "Entity Prediction Service: a configurable, end-to-end AutoML system" (Poster at AMLC 2020 AutoML workshop).
 
@@ -73,21 +73,21 @@ Skills
 
 Publications 
 ------
-(➔ <a href="https://adivekar-utexas.github.io/publications/">Abstracts</a>)
+<i class="fas fa-link" aria-hidden="true"></i> <a href="https://adivekar-utexas.github.io/publications/">Abstracts</a>
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-short-publication.html %}
 {% endfor %}</ul>
   
 Talks and presentations
 ------
-(➔ <a href="https://adivekar-utexas.github.io/talks/">Slides and Recordings</a>)
+<i class="fas fa-link" aria-hidden="true"></i> <a href="https://adivekar-utexas.github.io/talks/">Slides and Recordings</a>
 <ul>{% for post in site.talks reversed %}
   {% include archive-single-short-talk.html %}
 {% endfor %}</ul>
   
 Projects
 ------
-(➔ <a href="https://adivekar-utexas.github.io/projects/">Details and Contribution</a>)
+<i class="fas fa-link" aria-hidden="true"></i>  <a href="https://adivekar-utexas.github.io/projects/">Details and Contribution</a>
 <ul>{% for post in site.projects reversed %}
   {% include archive-single-short-project.html %}
 {% endfor %}</ul>

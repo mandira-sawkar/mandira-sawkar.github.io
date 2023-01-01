@@ -1,6 +1,7 @@
 ---
 title: "Extending Whisper, OpenAI's Speech-to-Text Model"
 collection: projects
+urlslug: "ut-mscs-case-studies-in-ml-project"
 type: "Academic"
 permalink: /projects/2022-12-05-ut-mscs-case-studies-in-ml-project
 contributors: "Abhishek Divekar, Yosub Jung, Roshni Tayal"

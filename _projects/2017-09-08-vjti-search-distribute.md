@@ -1,6 +1,7 @@
 ---
 title: "SearchDistribute: webscraping search results on an academic budget"
 collection: projects
+urlslug: "vjti-search-distribute"
 type: "Academic"
 permalink: /projects/2017-09-08-vjti-search-distribute
 contributors: "Abhishek Divekar"

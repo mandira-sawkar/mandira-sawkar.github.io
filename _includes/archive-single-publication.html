@@ -36,7 +36,10 @@
     </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 
+      {% if post.urlslug %} id="{{ post.urlslug }}" {% endif %}
+      class="archive__item-title" itemprop="headline"
+    >
       {% if post.collection == 'publications' %}
         {% if post.paperurl %} 
           {% if post.paperurl contains "internal" %} 

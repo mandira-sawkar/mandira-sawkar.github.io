@@ -1,6 +1,7 @@
 ---
 title: "Asking the Right Questions: Question Paraphrasing Using Cross-Domain Abstractive Summarization and Backtranslation"
 collection: projects
+urlslug: "ut-mscs-nlp-project"
 type: "Academic"
 permalink: /projects/2021-05-06-ut-mscs-nlp-project
 contributors: "Abhishek Divekar, Alex Stoken"

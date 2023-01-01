@@ -1,6 +1,7 @@
 ---
 title: "Flexible AutoML: Accelerating AutoML adoption across Amazon"
 collection: talks
+urlslug: "litmus-aimlsys-2022-talk"
 type: "Talk"
 permalink: /talks/2022-10-07-litmus-aimlsys-2022-talk
 venue: "2nd International Conference on AI-ML Systems (AIMLSys 2022)"
