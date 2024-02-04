@@ -54,7 +54,7 @@ Skills
   * Data Science: SparkML, SciKit-learn, SparkSQL, MySQL, PySpark, Dask, Pandas, NumPy, seaborn, MatPlotLib, MLFlow
   * Software Development: Docker Flask, Swagger, MongoDB, Git, Conda, MySQL.
   * Cloud: Google Cloud Platform (Cloud Storage, BigQuery, Vertex AI, Dataproc, Cloud Composer, Compute Engine).
- * **Strengths**
+* **Strengths**
   * Big Data Processing and Mining
   * ML Production
   * Exploratory Data Analysis (EDA)
