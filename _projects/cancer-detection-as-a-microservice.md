@@ -8,7 +8,7 @@ contributors: "Mandira Sawkar"
 contribution: "Sole contributor."
 date: 2022-12-01
 codeurl: 'https://github.com/mandira-sawkar/Cancer-Detection-as-a-Microservice'
-excerpt: 'Voting Classifier to predict cancer type with the Wisconsin Breast Cancer Dataset.'
+excerpt: 'Trained a Voting Classifier to predict cancer type with the Wisconsin Breast Cancer Dataset. Hosted the model as a Flask-based microservice running within a Docker container.'
 ---
 
 Mandira Sawkar
