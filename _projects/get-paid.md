@@ -8,7 +8,7 @@ contributors: "Mandira Sawkar"
 contribution: "Sole contributor."
 date: 2022-11-01
 codeurl: 'https://github.com/mandira-sawkar/getPaid'
-excerpt: 'SparkML RandomForest regressor to predict total employee compensation.'
+excerpt: 'Created a SparkML RandomForest model to predict total employee compensation. Queried data with SparkSQL, ran PySpark scripts to run EDA, pre-process data, and train model achieving with 0.98 R2 score.'
 ---
 
 Mandira Sawkar
