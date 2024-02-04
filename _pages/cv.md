@@ -19,7 +19,7 @@ I work at
 Work experience
 ------
 
-* **Apr 2023 - Present: Data Engineer | Kloud9.nyc, Bengaluru, India**
+* **Apr 2023 - Present: Data Engineer, Kloud9.nyc, Bengaluru, India**
   * Completed the feature engineering and validation phases for 50+ features of an ML model for ghost inventory prediction
 at a variety store chain. Generated 92% accuracy.
   * Undertaking the mining and analysis of ~10 datasets with multimillion datapoints to gain insights about stats, trends,
@@ -27,7 +27,7 @@ uniformity, etc. so as to expand and generalize the existing ML model.
   * Training interns in feature engineering and PySpark, and to make valuable contributions that can help get them
 converted to full-time employees.
 
-* **Oct 2020 - Apr 2023: Software Engineer | Software Engineer**
+* **Oct 2020 - Apr 2023: Software Engineer, Software Engineer**
   * Developed CLI tool using PowerShell and ProjectWise to automate creation and management of employee records.
 Utilized by Digital Operations team for induction of ~60K new employees, saving ~2.5 human-months per year.
   * Automated pipeline to detect project archival status using PowerShell, PowerAutomate and SharePoint. Developed
@@ -36,11 +36,11 @@ Operations team's maintenance overhead.
   * Designed and implemented Python application to maintain integrity in employee and project databases. Employed
 Pandas DataFrames to detect duplicates and inconsistencies across ~80,000 employee records per month.
 
-* **Mar 2020 - Sep 2020: Visa Official | Consulate General of France, Bengaluru, India**
+* **Mar 2020 - Sep 2020: Visa Official, Consulate General of France, Bengaluru, India**
   * Authored 5 analysis reports on Covid-19 (w.r.t economy, education, transport), distributed to the French community
 of 3 states (1000+ persons); Also processed ~50 visas per day.
 
-* **May 2018 - Oct 2018: Management Intern | Campus France India, Bengaluru, India**
+* **May 2018 - Oct 2018: Management Intern, Campus France India, Bengaluru, India**
   * Counselled and interviewed ~100 students for higher education. Organized 6 education fairs at 10 institutions while
 also training interns.
 
