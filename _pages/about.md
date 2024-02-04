@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi! I'm Abhishek, an Applied Scientist at Amazon International Machine Learning"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,34 +8,22 @@ redirect_from:
   - /about.html
 ---
 
-[Amazon International Machine Learning (IML)](https://www.amazon.science/working-at-amazon/how-rajeev-rastogis-machine-learning-team-in-india-develops-innovations-for-customers-worldwide) is a group of ~100 ML researchers working across Bangalore, Seattle, Sydney and Berlin, led by [Rajeev Rastogi](https://www.linkedin.com/in/rajeev-rastogi-5019701/?originalSubdomain=in). I research and train models for AutoML and NLP projects.
+Hi! I'm Mandira, a Data Engineer at Kloud9.nyc. I analyse and engineer multibillion row datasets for large-scale ML projects.
 
-<iframe style="padding-bottom: 1em;" src="https://www.youtube.com/embed/15sa6OeIWJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**Bio:** 
+I began my career in the French domain, working at the French Embassy and the Indo-French Chamber of Commerce and Industry. When I joined WSP Global in 2020, I initially served as a translator and learning content creator. Here, I saw an opportunity to employ my coding skills and developed a wiki app for users to easily access the content I had created. Rediscovering my passion for coding, I transitioned into the role of a Software Engineer and contributed significantly to the development of internal tools. 
+Simultaneously pursuing a data science program, I recognized the increasing need to delve deeper into data and machine learning (ML). Consequently, I transitioned to Kloud9.nyc as a Big Data Engineer, focusing on data and insight mining for business-critical ML models. I'm currently working the generalization of the Phantom Inventory Detection Model to extend it more use-cases and exploring the addition of new features.
 
+**Impact:** 
+At WSP, I was largely involved in process automation, developing a CLI tool and automated pipelines using PowerShell and ProjectWise, saving substantial human-hours, and reducing maintenance overhead by 71%. My data analysis skills were further honed in designing and implementing a Python application, ensuring integrity in employee and project databases by detecting duplicates and inconsistencies across 80,000 employee records.
+At Kloud9, I have played a pivotal role in establishing causal links in the “Ghost Inventory” problem for ~81 billion rows of data. I have developed a significant component that estimates a revenue loss of approximately $8 million/month for the client. Furthermore, I have completed the validation of the entire feature engineering component, helping the model achieve a 92% accuracy rate. Currently, my data mining and analysis has revealed critical issues that need to be addressed in the production phase of the Ghost Inventory Detection Model.
 
-**Bio:** From 2017 to 2019 I was a Software Engineer. In late-2019, I moved to Amazon IML as a Research Engineer to work on an Automated Machine Learning platform, EPS. I got hooked on ML research and by Fall 2020 had started a CS Masters at UT Austin to sharpen the saw. At the end of 2021, two things happened: (1) I published enough internal papers to become an Applied Scientist (2) I caught the NLP bug and started working on a task-oriented chatbot (training models for intent detection, information retrieval and knowledge-base curation). Before all this, I completed my undergraduate at VJTI Mumbai in 2017.
-
-**Impact:** My work has been published at internal venues such as [Amazon Machine Learning Conference (AMLC)](https://www.amazon.science/videos-webinars/amazons-annual-machine-learning-conference-featured-presentations-from-thought-leaders-within-academia). The AutoML platform (where I am now a technical lead) has been used by internal teams to deploy 1,000+ models across 14 Amazon websites, driving over $550 million dollars in revenue for Amazon businesses like [Subscribe and Save](https://www.amazon.com/b?node=5856181011). My work has also been adopted in external features like [AutoGluon's `infer_limit` feature](https://auto.gluon.ai/0.4.0/tutorials/tabular_prediction/tabular-indepth.html#inference-speed-as-a-fit-constraint) and presented at [ARD 2021](https://adivekar-utexas.github.io/files/Squeezing_the_last_DRiP_ARD_2021_slides.pdf) and [AIMLSys 2022](https://adivekar-utexas.github.io/files/AIMLSys_2022_demo_vF.pdf).
-
-**Future Plans:** In 2023, my focus will be NLP for dialogue and publishing my work externally. I've also taken a background interest in scaling Neural Networks; efforts in this direction include designing architecture for scheduling multiple experiments across a 800-GPU AWS cluster, which will be used to pre-train multimodal Transformers on a billion-row dataset.
-
-Publications 
-------
-<i class="fas fa-link" aria-hidden="true"></i> <a href="https://adivekar-utexas.github.io/publications/">Abstracts</a>
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-short-publication.html %}
-{% endfor %}</ul>
-  
-Talks and presentations
-------
-<i class="fas fa-link" aria-hidden="true"></i> <a href="https://adivekar-utexas.github.io/talks/">Slides and Recordings</a>
-<ul>{% for post in site.talks reversed %}
-  {% include archive-single-short-talk.html %}
-{% endfor %}</ul>
+**Future Plans:** 
+In 2024, I want to dig deeper into multilingual AI communicators and work on making them easily available to the wider populace, especially to empower linguistically marginalized communities. I believe data mining across diverse languages is key to understanding the inherent behaviour of multilingual LLMs. I would like to gain a deeper understanding of DL, NLP, data mining, computational linguistics, and information retrieval to contribute to such sophisticated technologies.
   
 Projects
 ------
-<i class="fas fa-link" aria-hidden="true"></i>  <a href="https://adivekar-utexas.github.io/projects/">Details and Contribution</a>
+<i class="fas fa-link" aria-hidden="true"></i>  <a href="https://mandira-sawkar.github.io/projects/">Details and Contribution</a>
 <ul>{% for post in site.projects reversed %}
   {% include archive-single-short-project.html %}
 {% endfor %}</ul>
