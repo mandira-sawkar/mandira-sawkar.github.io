@@ -18,21 +18,27 @@ I work at
 
 Work experience
 ------
-* **Apr 2023 - Present: Data Engineer, Kloud9.nyc**
-  * Completed the feature engineering and validation phases for 50+ features of an ML model for ghost inventory prediction
-at a variety store chain. Generated 92% accuracy.
-  * Undertaking the mining and analysis of ~10 datasets with multimillion datapoints to gain insights about stats, trends,
-uniformity, etc. so as to expand and generalize the existing ML model.
-  * Training interns in feature engineering and PySpark, and to make valuable contributions that can help get them
-converted to full-time employees.
+* **Apr 2023 - Jul 2024: ML Engineer, Kloud9.nyc**
+  * Led Feature Engineering: Completed feature engineering and validation phases for 50+ features of a machine learning
+model for ghost inventory prediction at a major variety store chain, achieving 92% accuracy, contributing to 10%
+reduction in stock discrepancies.
+  * Data Analysis & Model Expansion: Analyzed ~10 datasets with multimillion data points using PySpark and Pandas to
+identify key statistical patterns, trends, and anomalies. Enhanced the existing ML model's generalization, resulting in a
+15% improvement in prediction stability across diverse store environments.
+  * Automation & Efficiency: Implemented a data analysis and insights pipeline to optimize the insights workflow,
+decreasing processing time from 3 hours to 20 minutes per batch.
+  * Cross-Functional Collaboration: Collaborated with data engineers and business stakeholders to align model objectives
+with business goals, streamlining the analysis pipeline and reducing deployment time by ~80%.
+* Training & Mentorship: Trained and mentored 5+ interns in feature engineering, PySpark, and ML best practices,
+leading to 3 successful full-time conversions.
 
 * **Oct 2020 - Apr 2023: Software Engineer, WSP Global**
   * Developed CLI tool using PowerShell and ProjectWise to automate creation and management of employee records.
 Utilized by Digital Operations team for induction of ~60K new employees, saving ~2.5 human-months per year.
-  * Automated pipeline to detect project archival status using PowerShell, PowerAutomate and SharePoint. Developed
-monthly workflow to notify project-owners, and automatically archive projects. Led to 71% reduction in Digital
+  * Automated pipeline to detect project archival status using PowerShell, PowerAutomate and SharePoint. Developed a
+monthly workflow to notify project-owners and automatically archive projects. Led to 71% reduction in Digital
 Operations team's maintenance overhead.
-  * Designed and implemented Python application to maintain integrity in employee and project databases. Employed
+  * Designed and implemented a Python application to maintain integrity in employee and project databases. Employed
 Pandas DataFrames to detect duplicates and inconsistencies across ~80,000 employee records per month.
 
 * **Mar 2020 - Sep 2020: Visa Official, Consulate General of France in Bangalore**
@@ -47,7 +53,7 @@ also training interns.
 Skills
 ------
 * **Programming Languages**
-  * Proficient: Python, C++, PowerShell, SQL, PySpark
+  * Proficient: Python, R, C++, PowerShell, SQL, PySpark
   * Familiar: C, Java, HTML, CSS, JavaScript
 * **Tools**
   * Data Science: SparkML, SciKit-learn, SparkSQL, MySQL, PySpark, Dask, Pandas, NumPy, seaborn, MatPlotLib, MLFlow
@@ -59,12 +65,16 @@ Skills
   * Exploratory Data Analysis (EDA)
   * Data Visualization
   * Regression and Classification Modelling
+  * Forecasting
   * Data Structures and Algorithms
   * Workflow Automation
 
 
 Education
 ------
+* **Rochester Institute of Technology, NY, USA, 2026**
+  * Pursuing MS in Artificial Intelligence
+  * Coursework: Fundamentals of AI/ML, Math Methods for AI, Ethics of AI, Forecasting Methods.
 * **IIIT – Hyderabad, Hyderabad, India, 2023**
   * Secured a Post Graduate Certification in Software Engineering for Data Science with Distinction.
   * Coursework: Data Engineering, Machine Learning, Intelligent Systems Design, etc.
