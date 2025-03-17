@@ -8,18 +8,37 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Mandira, a Data Engineer at Kloud9.nyc. I analyse and engineer multibillion row datasets for large-scale ML projects.
+# Bridging Code and Culture: My Journey from French Diplomacy to Data Innovation
 
-**Bio:** 
-I began my career in the French domain, working at the French Embassy and the Indo-French Chamber of Commerce and Industry. When I joined WSP Global in 2020, I initially served as a translator and learning content creator. Here, I saw an opportunity to employ my coding skills and developed a wiki app for users to easily access the content I had created. Rediscovering my passion for coding, I transitioned into the role of a Software Engineer and contributed significantly to the development of internal tools. 
-Simultaneously pursuing a data science program, I recognized the increasing need to delve deeper into data and machine learning (ML). Consequently, I transitioned to Kloud9.nyc as a Big Data Engineer, focusing on data and insight mining for business-critical ML models. I'm currently working the generalization of the Phantom Inventory Detection Model to extend it more use-cases and exploring the addition of new features.
+I started out translating languages at the French Embassy and championing international partnerships—until I rediscovered another language that lit a spark: code. Watching lines of Python shape the world around me felt as revolutionary as bridging different cultures. That moment changed everything.
 
-**Impact:** 
-At WSP, I was largely involved in process automation, developing a CLI tool and automated pipelines using PowerShell and ProjectWise, saving substantial human-hours, and reducing maintenance overhead by 71%. My data analysis skills were further honed in designing and implementing a Python application, ensuring integrity in employee and project databases by detecting duplicates and inconsistencies across 80,000 employee records.
-At Kloud9, I have played a pivotal role in establishing causal links in the “Ghost Inventory” problem for ~81 billion rows of data. I have developed a significant component that estimates a revenue loss of approximately $8 million/month for the client. Furthermore, I have completed the validation of the entire feature engineering component, helping the model achieve a 92% accuracy rate. Currently, my data mining and analysis has revealed critical issues that need to be addressed in the production phase of the Ghost Inventory Detection Model.
 
-**Future Plans:** 
-In 2024, I want to dig deeper into multilingual AI communicators and work on making them easily available to the wider populace, especially to empower linguistically marginalized communities. I believe data mining across diverse languages is key to understanding the inherent behaviour of multilingual LLMs. I would like to gain a deeper understanding of DL, NLP, data mining, computational linguistics, and information retrieval to contribute to such sophisticated technologies.
+### Highlights of My Path
+
+- ML Innovations at Kloud9:
+Engineered and validated 50+ features for a ghost inventory prediction model, hitting 92% accuracy and cutting stock discrepancies by 10%.
+Analyzed ~10 massive datasets (millions of rows) using PySpark and Pandas, boosting model stability by 15% and reducing processing time from 3 hours to 20 minutes per batch.
+Mentored 5+ interns on ML best practices—leading to 3 full-time conversions and a stronger data-driven culture.
+
+- Innovative Automation:
+Taught myself PowerShell + Power Automate under tight deadlines to build a CLI tool that automated the creation of thousands of business-critical employee records.
+
+- Data-Driven Accuracy:
+Shifted manual database validations to a Python/Pandas pipeline, processing huge employee/project datasets with lightning speed and near-zero errors.
+
+- Agile Educator:
+Transferred my teaching expertise into tech—trained interns, mentored cross-functional teams, and helped redesign 50+ lesson plans for a network of 12 schools.
+
+- French Diplomat Meets Techie:
+Guided 100+ students in choosing the right educational paths, then dived into Software Engineering to solve real-world problems with data-driven solutions.
+
+
+### Current Fascinations
+
+- Multilingual NLP (My greatest desire is to bridge code and culture by breaking down language barriers.)
+- Machine Learning & AI (I’m obsessed with turning raw data into actionable insights!)
+- Big Data Pipelines (Ask me about PySpark or how I’m training a computer to “think.”)
+- Collaboration (Bringing people together is my superpower—whether it’s forging partnerships at educational fairs or building synergy across dev teams.)
   
 Projects
 ------
