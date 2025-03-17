@@ -18,7 +18,7 @@ I work at
 
 Work experience
 ------
-* **Apr 2023 - Jul 2024: ML Engineer, Kloud9.nyc**
+* **ML Engineer, Kloud9.nyc | Apr 2023 - Jul 2024**
   * Led Feature Engineering: Completed feature engineering and validation phases for 50+ features of a machine learning
 model for ghost inventory prediction at a major variety store chain, achieving 92% accuracy, contributing to 10%
 reduction in stock discrepancies.
@@ -29,10 +29,10 @@ identify key statistical patterns, trends, and anomalies. Enhanced the existing 
 decreasing processing time from 3 hours to 20 minutes per batch.
   * Cross-Functional Collaboration: Collaborated with data engineers and business stakeholders to align model objectives
 with business goals, streamlining the analysis pipeline and reducing deployment time by ~80%.
-* Training & Mentorship: Trained and mentored 5+ interns in feature engineering, PySpark, and ML best practices,
+  * Training & Mentorship: Trained and mentored 5+ interns in feature engineering, PySpark, and ML best practices,
 leading to 3 successful full-time conversions.
 
-* **Oct 2020 - Apr 2023: Software Engineer, WSP Global**
+* **Software Engineer, WSP Global | Oct 2020 - Apr 2023**
   * Developed CLI tool using PowerShell and ProjectWise to automate creation and management of employee records.
 Utilized by Digital Operations team for induction of ~60K new employees, saving ~2.5 human-months per year.
   * Automated pipeline to detect project archival status using PowerShell, PowerAutomate and SharePoint. Developed a
@@ -41,11 +41,11 @@ Operations team's maintenance overhead.
   * Designed and implemented a Python application to maintain integrity in employee and project databases. Employed
 Pandas DataFrames to detect duplicates and inconsistencies across ~80,000 employee records per month.
 
-* **Mar 2020 - Sep 2020: Visa Official, Consulate General of France in Bangalore**
+* **Visa Official, Consulate General of France in Bangalore | Mar 2020 - Sep 2020**
   * Authored 5 analysis reports on Covid-19 (w.r.t economy, education, transport), distributed to the French community
 of 3 states (1000+ persons); Also processed ~50 visas per day.
 
-* **May 2018 - Oct 2018: Management Intern, Campus France India**
+* **Management Intern, Campus France India | May 2018 - Oct 2018**
   * Counselled and interviewed ~100 students for higher education. Organized 6 education fairs at 10 institutions while
 also training interns.
 
