@@ -14,7 +14,7 @@ excerpt: 'Developed an AI-driven judicial simulation framework using large langu
 Mandira Sawkar
 
 **Description:**
-Developed an AI-driven judicial simulation framework using large language models (LLMs) to analyze 200 Supreme Court cases from the JUSTICE dataset.
+Developed an AI-driven judicial simulation framework using large language models (LLMs) to analyze 200 Supreme Court cases from the JUSTICE dataset, evaluating legal reasoning through chain-of-thought reasoning and persona-based modeling. Benchmarked multiple LLMs across 4+ experimental setups, assessing the impact of panel size, prompting, and ideology-based personas on verdict alignment with human judges.
 
 **My contribution:**
 Sole contributor.
