@@ -1,5 +1,17 @@
 [
     {
+        "title": "LLM-as-a-SupremeCourt-Judge",
+        "contributors": "Mandira Sawkar",
+        "type": "Academic",
+        "project_date": "2024-12-08", 
+        "url_slug": "LLM-as-a-SupremeCourt-Judge", 
+        "teaser_url": "",
+        "report_url": "",
+        "code_url": "https://github.com/mandira-sawkar/LLM-as-a-SupremeCourt-Judge",
+        "excerpt": "Developed an AI-driven judicial simulation framework using large language models (LLMs) to analyze 200 Supreme Court cases from the JUSTICE dataset.",
+        "my_contribution": "Sole contributor."
+    },
+    {
         "title": "Interpretable Parking Ticket Location Classifier",
         "contributors": "Mandira Sawkar",
         "type": "Academic",
