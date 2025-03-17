@@ -1,14 +1,15 @@
 ---
 permalink: /
 title: "About me"
-excerpt: ""
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# Bridging Code and Culture: My Journey from French Diplomacy to Data Innovation
+
+## Bridging Code and Culture: My Journey from French Diplomacy to Data Innovation
 
 I started out translating languages at the French Embassy and championing international partnerships—until I rediscovered another language that lit a spark: code. Watching lines of Python shape the world around me felt as revolutionary as bridging different cultures. That moment changed everything.
 
