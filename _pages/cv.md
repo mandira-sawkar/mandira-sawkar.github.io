@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Curriculum vitae (CV)"
+title: "Mandira Sawkar"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,14 +9,28 @@ redirect_from:
 
 {% include base_path %}
 
-<!--
+
 Cover Letter
 ------
-I work at 
--->
+I am a Master’s student in Artificial Intelligence at Rochester Institute of Technology, currently seeking a thesis opportunity for the upcoming academic year. My interests lie in natural language processing, explainable AI, and socially aligned machine learning.
+
+While I do not yet have publications, I have pursued several applied and research-oriented projects—most recently, building a judicial simulation using LLMs to analyze Supreme Court cases, where I explored persona-based reasoning and prompting strategies. My background also includes experience in large-scale data analysis, model development, and system deployment.
 
 
-Work experience
+Education
+------
+* **Rochester Institute of Technology, NY, USA, 2026**
+  * Pursuing MS in Artificial Intelligence
+  * Coursework: Fundamentals of AI/ML, Math Methods for AI, Ethics of AI, Forecasting Methods.
+* **IIIT – Hyderabad, Hyderabad, India, 2023**
+  * Secured a Post Graduate Certification in Software Engineering for Data Science with Distinction.
+  * Coursework: Data Engineering, Machine Learning, Intelligent Systems Design, etc.
+* **Indira Gandhi National Open University, Delhi, India, 2020**
+  * Graduated with a Bachelor of Computer Applications with First Class.
+  * Coursework: Data Structures and Algorithms, Discrete Mathematics, Operating Systems, etc.
+
+
+Professional Experience
 ------
 * **ML Engineer, Kloud9.nyc (Apr 2023 - Jul 2024)**
   * Led Feature Engineering: Completed feature engineering and validation phases for 50+ features of a machine learning
@@ -70,22 +84,30 @@ Skills
   * Workflow Automation
 
 
-Education
+Publications
 ------
-* **Rochester Institute of Technology, NY, USA, 2026**
-  * Pursuing MS in Artificial Intelligence
-  * Coursework: Fundamentals of AI/ML, Math Methods for AI, Ethics of AI, Forecasting Methods.
-* **IIIT – Hyderabad, Hyderabad, India, 2023**
-  * Secured a Post Graduate Certification in Software Engineering for Data Science with Distinction.
-  * Coursework: Data Engineering, Machine Learning, Intelligent Systems Design, etc.
-* **Indira Gandhi National Open University, Delhi, India, 2020**
-  * Graduated with a Bachelor of Computer Applications with First Class.
-  * Coursework: Data Structures and Algorithms, Discrete Mathematics, Operating Systems, etc.
+In Progress.
 
-  
+
+Talks and Presentations
+------
+* **AI Alignment in Criminal Justice, RIT Graduate Showcase (Apr 2025)**
+  * Won 12min oral presentaion.
+
+* **LLM-as-a-SupremeCourt-Judge, RIT Graduate Showcase (Apr 2025)**
+  * Poster presentation.
+
+
+Teaching and Outreach
+------
+* Mentored interns.
+
+* Took interviews.
+
+
 Projects
 ------
-<i class="fas fa-link" aria-hidden="true"></i>  <a href="https://adivekar-utexas.github.io/projects/">Details and Contribution</a>
+<i class="fas fa-link" aria-hidden="true"></i>  <a href="https://mandira-sawkar.github.io/projects/">Details and Contribution</a>
 <ul>{% for post in site.projects reversed %}
   {% include archive-single-short-project.html %}
 {% endfor %}</ul>
