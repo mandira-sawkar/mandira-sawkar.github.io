@@ -30,6 +30,11 @@ Education
   * Coursework: Data Structures and Algorithms, Discrete Mathematics, Operating Systems, etc.
 
 
+Research Interests
+------
+Socially Aligned AI, Natural Language Processing, Reasoning with LLMs, Multilingual LLMs, AI Translation, Explainable AI
+
+
 Professional Experience
 ------
 * **ML Engineer, Kloud9.nyc (Apr 2023 - Jul 2024)**
