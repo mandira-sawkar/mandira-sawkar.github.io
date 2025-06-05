@@ -1,5 +1,41 @@
 [
     {
+        "title": "Detecting Deception: Intelligent Systems for Fighting Misinformation",
+        "contributors": "Mandira Sawkar, Leona Joseph, Vivek Senthil",
+        "type": "Academic",
+        "project_date": "2025-05-01", 
+        "url_slug": "Intelligent-Systems-for-Fighting-Misinformation", 
+        "teaser_url": "",
+        "report_url": "",
+        "code_url": "https://github.com/mandira-sawkar/Intelligent-Systems-for-Fighting-Misinformation",
+        "excerpt": "Developed a hybrid AI model using DistilRoBERTa and RoBERTa-large-MNLI to detect fake news.",
+        "my_contribution": "Conducted extensive literature review and developed a framework with a fine-tuned DistilRoBERTa with logic-gated overrides; Co-authored a ACM-style conference paper. "
+    },
+    {
+        "title": "Beyond Hallucinations: A Multi-Agent Approach To Fact-Checked AI Knowledge",
+        "contributors": "Mandira Sawkar",
+        "type": "Academic",
+        "project_date": "2025-05-05", 
+        "url_slug": "Beyond-Hallucinations-Multi-Agent-Fact-Checking", 
+        "teaser_url": "",
+        "report_url": "",
+        "code_url": "https://github.com/mandira-sawkar/Beyond-Hallucinations-Multi-Agent-Fact-Checking",
+        "excerpt": "Developed a theoretical framework consisting of multiple LLM agents producing verifiable responses through debate and consensus.",
+        "my_contribution": "Sole contributor."
+    },
+    {
+        "title": "AI Alignment in Criminal Justice - Fair Jury Selection and Deliberation",
+        "contributors": "Mandira Sawkar, Leona Joseph, Shrid Pant",
+        "type": "Academic",
+        "project_date": "2024-12-04", 
+        "url_slug": "AI-Alignment-in-Criminal-Justice", 
+        "teaser_url": "",
+        "report_url": "",
+        "code_url": "https://github.com/mandira-sawkar/AI-Alignment-in-Criminal-Justice",
+        "excerpt": "Created a theoretical hybrid model for fair jury selection and intra-jury deliberation using optimization and game theory with a novel extension to nash equilibrium.",
+        "my_contribution": "Conducted literature review and helped develop both the optimization and game theoretic components; Co-presented and won 1st place at the RIT Graduate Showcase."
+    },
+    {
         "title": "LLM-as-a-SupremeCourt-Judge",
         "contributors": "Mandira Sawkar",
         "type": "Academic",
