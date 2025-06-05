@@ -10,8 +10,7 @@ redirect_from:
 {% include base_path %}
 
 
-Cover Letter
-------
+
 I am a Master’s student in Artificial Intelligence at Rochester Institute of Technology, currently seeking a thesis opportunity for the upcoming academic year. My interests lie in natural language processing, explainable AI, and socially aligned machine learning.
 
 While I do not yet have publications, I have pursued several applied and research-oriented projects—most recently, building a judicial simulation using LLMs to analyze Supreme Court cases, where I explored persona-based reasoning and prompting strategies. My background also includes experience in large-scale data analysis, model development, and system deployment.
@@ -32,7 +31,12 @@ Education
 
 Research Interests
 ------
-Socially Aligned AI, Natural Language Processing, Reasoning with LLMs, Multilingual LLMs, AI Translation, Explainable AI
+I’m broadly interested in building AI systems that are socially aligned and interpretable, especially in high-stakes domains like justice and governance.
+My current focus areas include:
+* Socially Aligned AI – Designing frameworks that integrate fairness, optimization, and behavioral modeling to reduce systemic bias.
+* Natural Language Processing & Reasoning with LLMs – Exploring how large language models can emulate nuanced human reasoning and decision-making.
+* Multilingual LLMs & AI Translation – Developing inclusive AI systems that support equitable access across languages, and consequently across different demographics.
+* Explainable AI – Creating interpretable models to increase transparency and stakeholder trust in machine learning systems.
 
 
 Professional Experience
@@ -97,17 +101,17 @@ In Progress.
 Talks and Presentations
 ------
 * **AI Alignment in Criminal Justice, RIT Graduate Showcase (Apr 2025)**
-  * Won 12min oral presentaion.
+  * Delivered an oral presentation on AI in Criminal Justice at the RIT Graduate Showcase and awarded 1st place out of ~60 presentations; proposed a novel framework combining optimization and game theory to reduce bias in jury selection and deliberation using demographic weighting and behavioral modeling, with real-world applicability through simulations and tooling.
 
 * **LLM-as-a-SupremeCourt-Judge, RIT Graduate Showcase (Apr 2025)**
-  * Poster presentation.
+  * Presented a poster on the LLM-as-a-SupremeCourt-Judge project at the RIT Graduate Showcase, demonstrating an AI-powered judicial simulation framework using large language models to analyze 200 U.S. Supreme Court cases from the JUSTICE dataset.
 
 
-Teaching and Outreach
+Training and Outreach
 ------
-* Mentored interns.
+* Trained and mentored 5+ interns in feature engineering, PySpark, and ML best practices, leading to 3 successful full-time conversions.
 
-* Took interviews.
+* Interviewed candidates for French translation positions at WSP, leading to 4 hires. Also conducted ~20 student visa interviews for the French embassy.
 
 
 Projects
