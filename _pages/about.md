@@ -11,7 +11,7 @@ redirect_from:
 
 ## Bridging Code and Culture: My Journey from French Diplomacy to Data Innovation
 
-I started out translating languages at the French Embassy and championing international partnerships—until I rediscovered another language that lit a spark: code. Watching lines of Python shape the world around me felt as revolutionary as bridging different cultures. That moment changed everything.
+I started out translating languages at the French Embassy and championing international partnerships, until I rediscovered another language that lit a spark: code. Watching lines of Python shape the world around me felt as revolutionary as bridging different cultures. That moment changed everything.
 
 
 ### Highlights of My Path
@@ -19,7 +19,7 @@ I started out translating languages at the French Embassy and championing intern
 - ML Innovations at Kloud9:
 Engineered and validated 50+ features for a ghost inventory prediction model, hitting 92% accuracy and cutting stock discrepancies by 10%.
 Analyzed ~10 massive datasets (millions of rows) using PySpark and Pandas, boosting model stability by 15% and reducing processing time from 3 hours to 20 minutes per batch.
-Mentored 5+ interns on ML best practices—leading to 3 full-time conversions and a stronger data-driven culture.
+Mentored 5+ interns on ML best practices, leading to 3 full-time conversions and a stronger data-driven culture.
 
 - Innovative Automation:
 Taught myself PowerShell + Power Automate under tight deadlines to build a CLI tool that automated the creation of thousands of business-critical employee records.
@@ -28,7 +28,7 @@ Taught myself PowerShell + Power Automate under tight deadlines to build a CLI t
 Shifted manual database validations to a Python/Pandas pipeline, processing huge employee/project datasets with lightning speed and near-zero errors.
 
 - Agile Educator:
-Transferred my teaching expertise into tech—trained interns, mentored cross-functional teams, and helped redesign 50+ lesson plans for a network of 12 schools.
+Transferred my teaching expertise into tech; trained interns, mentored cross-functional teams, and helped redesign 50+ lesson plans for a network of 12 schools.
 
 - French Diplomat Meets Techie:
 Guided 100+ students in choosing the right educational paths, then dived into Software Engineering to solve real-world problems with data-driven solutions.
@@ -39,7 +39,7 @@ Guided 100+ students in choosing the right educational paths, then dived into So
 - Multilingual NLP (My greatest desire is to bridge code and culture by breaking down language barriers.)
 - Machine Learning & AI (I’m obsessed with turning raw data into actionable insights!)
 - Big Data Pipelines (Ask me about PySpark or how I’m training a computer to “think.”)
-- Collaboration (Bringing people together is my superpower—whether it’s forging partnerships at educational fairs or building synergy across dev teams.)
+- Collaboration (Bringing people together is my superpower, whether it’s forging partnerships at educational fairs or building synergy across dev teams.)
   
 Projects
 ------
