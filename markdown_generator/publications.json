@@ -1,75 +1,14 @@
 [
     {
-        "title": "Unsupervised text augmentation using Pre-trained Paraphrase Generation",
-        "pub_date": "2023-09-01", 
-        "url_slug": "grok-paper", 
-        "paper_url": "",
+        "title": "LPI-RIT at LeWiDi-2025: Improving Distributional Predictions via Metadata and Loss Reweighting with DisCo",
+        "pub_date": "2025-11-06", 
+        "url_slug": "lewidi-paper", 
+        "paper_url": "https://arxiv.org/abs/2508.08163",
         "teaser_url": "",
-        "venue": "(Preprint)", 
+        "venue": "(NLPerspectives workshop at Empirical Methods in Natural Language Processing (EMNLP) 2025.)", 
         "acceptance_rate": "",
         "acceptance_type": "",
-        "citation": "<i>(Preprint)</i> <u>Abhishek Divekar</u>, Mudit Agarwal, Srujana Merugu, and Nikhil Rasiwasia. <b>\"Unsupervised text augmentation using Pre-trained Paraphrase Generation\"</b>.", 
-        "excerpt": "Unsupervised text augmentation has gained attention in recent years, as approaches which use pre-trained models to produce high-quality augmentations (such as Backtranslation [48]) are replacing simple rule-based noising to attain SOTA performance in fully- and semi-supervised settings [53]. Such approaches have benefits over other model-based text augmentations, as they are applicable to most natural language tasks and their efficacy does not rely on the availability or quality of ground-truths. However, it is difficult to ensure augmented covariates are neither homogeneous nor invalid. To address this, we introduce GROK Score, an unsupervised metric which measures the paraphrase quality of generated text: fluency, semantic fidelity and diversity. When used to re-rank and filter outputs from Beam Search decoding on pre-trained generative models, GROK captures a small subset of diverse generations, which are used as augmentations. We evaluate this strategy in realistic scenarios: “challenging” Amazon Product classification problems from the CPP MultiModal corpus (2.75-3.87 ROC-AUC below the average) with limited text data. Our results indicate that GROK requires 69.5% fewer augmented samples to match the performance of Backtranslation and rule-based Easy Data Augmentation (EDA) [51] across six classification algorithms. Additionally, tuning the GROK-filtering threshold using K-Fold cross-validation leads to an average lift of 0.28 ROC-AUC, improving performance over both EDA and Backtranslation for all algorithms, while requiring 30% fewer augmented samples (achieving 0.53 ROC-AUC lift for VowpalWabbit and 1.10 for WideAndDeep). Human evaluations comparing GROK to prominent metrics like BLEU, METEOR and ROUGE validate our hypothesis that GROK promotes text generations having high diversity, indicating its utility beyond augmentation."
-    },
-    {
-        "title": "Squeezing the last DRiP: AutoML for cost-constrained Product classification",
-        "pub_date": "2021-09-01", 
-        "url_slug": "drip-paper", 
-        "paper_url": "(internal)",
-        "teaser_url": "",
-        "alternative_url": "<a href=\"https://adivekar-utexas.github.io/files/Squeezing_the_last_DRiP_ARD_2021_slides.pdf\">Talk at Amazon Research Days 2021</a>",
-        "venue": "Amazon Machine Learning Conference (AMLC)", 
-        "acceptance_rate": "30%",
-        "acceptance_type": "Poster",
-        "citation": "<u>Abhishek Divekar</u>*, Gaurav Manchanda*, Prit Raj, Abhishek Das, Karan Tanwar, Akshay Jagatap, Vinayak Puranik, Jagannathan Srinivasan, Ramakrishna Nalam, and Nikhil Rasiwasia. <b>\"Squeezing the last DRiP: AutoML for cost-constrained product classification\"</b>. <i>9th conference of Amazon Machine Learning (AMLC 2021)</i>", 
-        "excerpt": "Recent progress in automated machine learning (AutoML), has shown that both hyperparameter search and stacking models can achieve performance that beats the median Kaggle competitor on standard classification metrics [13]. However, solutions that directly optimize cost of executing such models within minimal loss of performance have been sparingly explored. The challenge faced by current techniques is the lack of apriori knowledge of the deployment environment in which the model must operate, and its associated constraints (such as request batch-size or prediction latency). This shortcoming, however, affects a critical subset of users: business teams having cost-sensitive use-cases, who are unable to meet their goals if an AutoML-suggested model is expensive during training or inference. To bridge this gap, we propose DRiP, a versatile ML framework which encapsulates the phases needed for an automated system to select and iteratively refine candidate models while being constrained by an inference budget. We find that existing tools have individual capabilities that map to phases in our framework, but lack the overall capability to optimize against such constraints. Thus, we present our implementation of this framework as a new AutoML tool. When compared across 38 product classification datasets and various business use-cases, we find that DRiP is able to obtain 99.96% of the ROC-AUC performance of the best SOTA AutoML systems (AutoGluon and H2O.ai) at 37% of the cost. When tuned to minimize cost, DRiP offers better cost and performance than comparably optimized AutoML systems (average 0.21 ROC-AUC increase at 44% of the cost of distilled AutoGluon). If no cost constraints are imposed, “Unrestricted” DRiP provides the best overall performance (98.42 ROC-AUC vs 98.18 for next-best AutoML system). Although we evaluate classification, the framework can be used to automatically optimize any machine learning task having well-defined performance and cost."
-    },
-    {
-        "title": "CPP Multimodal AutoML Corpus and Benchmark",
-        "pub_date": "2021-09-01", 
-        "url_slug": "cpp-benchmark-paper", 
-        "paper_url": "(internal)",
-        "teaser_url": "",
-        "venue": "1st Workshop on MultiModal Learning and Fusion, Amazon Machine Learning Conference", 
-        "acceptance_rate": "",
-        "acceptance_type": "Oral",
-        "citation": "Andrew Borthwick, <u>Abhishek Divekar</u>, Nick Erickson, Fayaz Ahmed Farooque, Oleg Kim, Nikhil Rasiwasia, and Ethan Xu. <b>\"The CPP Multimodal AutoML Corpus and Benchmark\"</b>. <i>1st AMLC Workshop on MultiModal Learning and Fusion at the 9th conference of Amazon Machine Learning (AMLC 2021)</i>", 
-        "excerpt": "A collection of 40 binary classification datasets was acquired from an integrated AutoML, active learning, and human labeling system for Amazon products known as ”CPP AutoML”. Each dataset consists of an identical schema of 39 attributes including numeric, categorical, text, image and date attributes. Each dataset represents a real business problem that is being solved by the CPP AutoML platform. In this paper, we discuss the construction and structure of this corpus. We also discuss the challenges of evaluating AutoML algorithms for the “hands off the wheel” business requirements of CPP AutoML. Finally, we present short descriptions and benchmark metrics over this corpus for a collection of algorithms. These algorithms include the CPP AutoML production baseline, two common machine learning baselines, two publicly available Amazon AutoML solutions (AutoGluon and SageMaker AutoPilot), and two novel AutoML solutions. The novel AutoML solutions exhibit particularly strong performance relative to the production baseline. One of these solutions exercises new functionality added to AutoGluon to stack and ensemble a ResNet image model fine tuned on raw image features, used in addition to the tabular models already trained in standard AutoGluon. The other solution, EPS-Ensemble, combines standard gradient-boosted trees and logistic regression models with Transformer networks pre-trained on the Amazon catalog using different self-supervised objectives."
-    },
-    {
-        "title": "LEAP: LEAf node Predictions in the wild",
-        "pub_date": "2021-03-01", 
-        "url_slug": "leap-paper", 
-        "paper_url": "(internal)",
-        "teaser_url": "",
-        "venue": "2nd ASCS Applied Science Workshop", 
-        "acceptance_rate": "",
-        "acceptance_type": "Oral",
-        "citation": "<u>Abhishek Divekar</u>, Vinayak Puranik, Zhenyu Shi, Jinmiao Fu, and Nikhil Rasiwasia. <b>\"LEAP: LEAf node Predictions in the wild\"</b>. <i>2nd ASCS Applied Science Workshop, 2021</i>", 
-        "excerpt": "The data available in Amazon's catalog is rich and diverse; however, it is also highly irregular and often challenging to employ directly for business or Machine Learning applications. Frequent issues include low fill-rate of catalog attributes, noise in attributes, dataset shift between train and real-world distributions, and potential abuse in externally-sourced fields such as Generic Keywords and Browse Node. In this paper, we work backward from the goal of building high-precision classifiers to predict “Leaf Nodes” of Amazon's Browse taxonomy, to address the issue of purposeful or accidental mis-noding in the face of aforementioned challenges. Our findings indicate that weakly-supervised datasets collected using intuitive filters - based on Glance Views (GVs) and Total Orders - are effective in eliminating potential noise in the training data (2-4% improvement in accuracy). Further, evaluating a curated set of algorithms illustrates problems inherent in weak supervision that affect both linear models and pre-trained Transformer architectures. To address these problems, we explore multi-modal ensembling and show how ensembles combining multiple information sources outperform models trained on a single modality (additional 2-5% improvement in accuracy). Finally, we describe our success deploying these models on the IN marketplace to automatically correct Leaf Nodes for high-GV and 0-GV products, which has led to >3.5X improvement in audit efficiency and 5.5MM Leaf Node corrections overall."
-    },
-    {
-        "title": "Entity Prediction Service: a configurable, end-to-end AutoML system",
-        "pub_date": "2020-09-01", 
-        "url_slug": "eps-paper", 
-        "paper_url": "(internal)",
-        "teaser_url": "",
-        "venue": "Workshop on Automated Machine Learning, Amazon Machine Learning Conference", 
-        "acceptance_rate": "",
-        "acceptance_type": "Poster",
-        "citation": "Gaurav Manchanda*, <u>Abhishek Divekar</u>*, Akshay Jagatap, Prit Raj, Vinayak Puranik, Nikhil Rasiwasia, Ramakrishna Nalam, and Jagannathan Srinivasa. <b>\"Entity Prediction Service: a configurable, end-to-end AutoML system\"</b>. <i>Workshop on Automated Machine Learning at the 8th conference of Amazon Machine Learning (AMLC 2020)</i>",
-        "excerpt": "Business teams at Amazon often need to classify products into different taxonomies such as GL, item type keyword (ITK), category/sub-category, browse node, tax code, export-compliance-code and hazmat. Due to the lack of ML expertise, these teams end up relying on human auditors or manually codify rules, which is not scalable or do not work in cases having data with high diversity. Existing ML solutions for AutoML product classification are either stand-alone applications that push the burden of model productionization onto users (e.g. SageMaker Autopilot and AutoGluon), or are production-friendly, but lack state-of-the-art AutoML capabilities and do not leverage the agility offered by modern tech ecosystems. In this paper, we present Entity Prediction Service (EPS), a configurable product classification solution designed to serve the end-to-end needs of Amazon teams. Leveraging the robust ecosystem of AWS services and Docker, EPS automatically fetches and pre-processes data from internal data sources, trains and tunes models, performs inference, and enables one-click deployment into production. Each step offers a granular level of configurability, with default parameters backed by a robust set of scientific benchmarks. This helps serve customers across the spectrum of Machine Learning expertise, enabling Business Associates, SDEs and Applied Scientists to build high quality product classification models and deploy them on Amazon systems for continuous classification."
-    },
-    {
-        "title": "Benchmarking datasets for Anomaly-based Network Intrusion Detection: KDD CUP 99 alternatives",
-        "pub_date": "2018-10-25", 
-        "url_slug": "kddcup99-paper", 
-        "paper_url": "https://arxiv.org/abs/1811.05372",
-        "teaser_url": "",
-        "venue": "IEEE International Conference on Computing, Communication and Security", 
-        "acceptance_rate": "",
-        "acceptance_type": "Oral",
-        "citation": "<u>Abhishek Divekar</u>, Meet Parekh, Vaibhav Savla, Rudra Mishra, and Mahesh Shirole. <b>\"Benchmarking datasets for Anomaly-based Network Intrusion Detection: KDD CUP 99 alternatives\"</b>. <i>IEEE International Conference on Computing, Communication and Security (ICCCS 2018)</i>",
-        "excerpt": "Machine Learning has been steadily gaining traction for its use in Anomaly-based Network Intrusion Detection Systems (A-NIDS). Research into this domain is frequently performed using the KDD~CUP~99 dataset as a benchmark. Several studies question its usability while constructing a contemporary NIDS, due to the skewed response distribution, non-stationarity, and failure to incorporate modern attacks. In this paper, we compare the performance for KDD-99 alternatives when trained using classification models commonly found in literature: Neural Network, Support Vector Machine, Decision Tree, Random Forest, Naive Bayes and K-Means. Applying the SMOTE oversampling technique and random undersampling, we create a balanced version of NSL-KDD and prove that skewed target classes in KDD-99 and NSL-KDD hamper the efficacy of classifiers on minority classes (U2R and R2L), leading to possible security risks. We explore UNSW-NB15, a modern substitute to KDD-99 with greater uniformity of pattern distribution. We benchmark this dataset before and after SMOTE oversampling to observe the effect on minority performance. Our results indicate that classifiers trained on UNSW-NB15 match or better the Weighted F1-Score of those trained on NSL-KDD and KDD-99 in the binary case, thus advocating UNSW-NB15 as a modern substitute to these datasets."
+        "citation": "<i>(NLPerspectives, EMNLP 2025)</i> <u>Mandira Sawkar*</u>, Samay U. Shetty*, Deepak Pandita, Tharindu Cyril Weerasooriya, Christopher M. Homan. <b>\"LPI-RIT at LeWiDi-2025: Improving Distributional Predictions via Metadata and Loss Reweighting with DisCo\"</b>.", 
+        "excerpt": "The Learning With Disagreements (LeWiDi) 2025 shared task aims to model annotator disagreement through soft label distribution prediction and perspectivist evaluation, which focuses on modeling individual annotators. We adapt DisCo (Distribution from Context), a neural architecture that jointly models item-level and annotator-level label distributions, and present detailed analysis and improvements. In this paper, we extend DisCo by introducing annotator metadata embeddings, enhancing input representations, and multi-objective training losses to capture disagreement patterns better. Through extensive experiments, we demonstrate substantial improvements in both soft and perspectivist evaluation metrics across three datasets. We also conduct in-depth calibration and error analyses that reveal when and why disagreement-aware modeling improves. Our findings show that disagreement can be better captured by conditioning on annotator demographics and by optimizing directly for distributional metrics, yielding consistent improvements across datasets."
     }
 ]

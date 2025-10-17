@@ -11,16 +11,17 @@ redirect_from:
 
 
 
-I am a Master’s student in Artificial Intelligence at Rochester Institute of Technology, currently seeking a thesis opportunity for the upcoming academic year. My interests lie in natural language processing, explainable AI, and socially aligned machine learning.
+I am a Master’s student in Artificial Intelligence at Rochester Institute of Technology, actively seeking AI roles. My interests lie in natural language processing, explainable AI, and socially aligned machine learning.
 
-While I do not yet have publications, I have pursued several applied and research-oriented projects—most recently, building a judicial simulation using LLMs to analyze Supreme Court cases, where I explored persona-based reasoning and prompting strategies. My background also includes experience in large-scale data analysis, model development, and system deployment.
+I have pursued several applied and research-oriented projects as well as published a paper at EMNLP. I'm also currently pursuing thesis research on gender bias in the UK parliament during the suffrage movement. My background also includes experience in large-scale data analysis, model development, and system deployment.
 
 
 Education
 ------
 * **Rochester Institute of Technology, NY, USA, 2026**
   * Pursuing MS in Artificial Intelligence
-  * Coursework: Fundamentals of AI/ML, Math Methods for AI, Ethics of AI, Forecasting Methods.
+  * Coursework: Fundamentals of AI/ML, Math Methods for AI, Ethics of AI, Forecasting Methods, Deep Learning.
+  * Thesis: The Sound of Suffrage - Modeling Gender and Power in Parliamentary Speech.
 * **IIIT – Hyderabad, Hyderabad, India, 2023**
   * Secured a Post Graduate Certification in Software Engineering for Data Science with Distinction.
   * Coursework: Data Engineering, Machine Learning, Intelligent Systems Design, etc.
@@ -76,26 +77,18 @@ also training interns.
 Skills
 ------
 * **Programming Languages**
-  * Proficient: Python, R, C++, PowerShell, SQL, PySpark
-  * Familiar: C, Java, HTML, CSS, JavaScript
-* **Tools**
-  * Data Science: SparkML, SciKit-learn, SparkSQL, MySQL, PySpark, Dask, Pandas, NumPy, seaborn, MatPlotLib, MLFlow
-  * Software Development: Docker Flask, Swagger, MongoDB, Git, Conda, MySQL.
-  * Cloud: Google Cloud Platform (Cloud Storage, BigQuery, Vertex AI, Dataproc, Cloud Composer, Compute Engine).
-* **Strengths**
-  * Big Data Processing and Mining
-  * ML Production
-  * Exploratory Data Analysis (EDA)
-  * Data Visualization
-  * Regression and Classification Modelling
-  * Forecasting
-  * Data Structures and Algorithms
-  * Workflow Automation
+  * Python, R, C++, C, PowerShell, SQL, Java
+* **Natural Language Processing (NLP)**
+  * Hugging Face Transformers, RoBERTa, GPT APIs, Sentence Transformers, BERT-family models, Fine-tuning & Prompt Engineering, Tokenization & Embeddings, Semantic Similarity, NLI, Disagreement-aware Modeling, Evaluation & Calibration, Bias/Fairness Analysis
+* **Machine Learning (ML) & Data Science**
+  * PyTorch, TensorFlow, scikit-learn, MLflow, Weights & Biases | Regression, Classification, Forecasting, Data Pipeline Optimization, Probability & Statistics, Linear Algebra
+* **Systems & Tools**
+  * Google Cloud Platform (GCP), Amazon Web Services (AWS), Docker, Flask, Git
 
 
 Publications
 ------
-In Progress.
+Mandira Sawkar*, Samay U. Shetty*, Deepak Pandita, Tharindu Cyril Weerasooriya, Christopher M. Homan. “LPI-RIT at LeWiDi-2025: Improving Distributional Predictions via Metadata and Loss Reweighting with DisCo”. NLPerspectives workshop at Empirical Methods in Natural Language Processing (EMNLP) 2025. [<a href="https://arxiv.org/abs/2508.08163">Link</a>]
 
 
 Talks and Presentations

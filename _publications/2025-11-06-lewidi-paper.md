@@ -1,0 +1,16 @@
+---
+title: "LPI-RIT at LeWiDi-2025: Improving Distributional Predictions via Metadata and Loss Reweighting with DisCo"
+collection: publications
+permalink: /publication/2025-11-06-lewidi-paper
+excerpt: 'The Learning With Disagreements (LeWiDi) 2025 shared task aims to model annotator disagreement through soft label distribution prediction and perspectivist evaluation, which focuses on modeling individual annotators. We adapt DisCo (Distribution from Context), a neural architecture that jointly models item-level and annotator-level label distributions, and present detailed analysis and improvements. In this paper, we extend DisCo by introducing annotator metadata embeddings, enhancing input representations, and multi-objective training losses to capture disagreement patterns better. Through extensive experiments, we demonstrate substantial improvements in both soft and perspectivist evaluation metrics across three datasets. We also conduct in-depth calibration and error analyses that reveal when and why disagreement-aware modeling improves. Our findings show that disagreement can be better captured by conditioning on annotator demographics and by optimizing directly for distributional metrics, yielding consistent improvements across datasets.'
+date: 2025-11-06
+venue: '(NLPerspectives workshop at Empirical Methods in Natural Language Processing (EMNLP) 2025.)'
+paperurl: 'https://arxiv.org/abs/2508.08163'
+citation: '<i>(NLPerspectives, EMNLP 2025)</i> <u>Mandira Sawkar*</u>, Samay U. Shetty*, Deepak Pandita, Tharindu Cyril Weerasooriya, Christopher M. Homan. <b>&quot;LPI-RIT at LeWiDi-2025: Improving Distributional Predictions via Metadata and Loss Reweighting with DisCo&quot;</b>.'
+---
+
+<a href='https://arxiv.org/abs/2508.08163'>Download paper here</a>
+
+The Learning With Disagreements (LeWiDi) 2025 shared task aims to model annotator disagreement through soft label distribution prediction and perspectivist evaluation, which focuses on modeling individual annotators. We adapt DisCo (Distribution from Context), a neural architecture that jointly models item-level and annotator-level label distributions, and present detailed analysis and improvements. In this paper, we extend DisCo by introducing annotator metadata embeddings, enhancing input representations, and multi-objective training losses to capture disagreement patterns better. Through extensive experiments, we demonstrate substantial improvements in both soft and perspectivist evaluation metrics across three datasets. We also conduct in-depth calibration and error analyses that reveal when and why disagreement-aware modeling improves. Our findings show that disagreement can be better captured by conditioning on annotator demographics and by optimizing directly for distributional metrics, yielding consistent improvements across datasets.
+
+Recommended citation: <i>(NLPerspectives, EMNLP 2025)</i> <u>Mandira Sawkar*</u>, Samay U. Shetty*, Deepak Pandita, Tharindu Cyril Weerasooriya, Christopher M. Homan. <b>"LPI-RIT at LeWiDi-2025: Improving Distributional Predictions via Metadata and Loss Reweighting with DisCo"</b>.

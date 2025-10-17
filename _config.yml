@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Mandira Sawkar"
   avatar           : "profile.jpeg"
-  bio              : 
+  bio              : Machine Learning Engineer | AI Researcher | Aspiring Applied Scientist
   location         : "Rochester, NY, USA"
-  employer         : "RIT"
+  employer         : "Rochester Institute of Technology"
   pubmed           : 
-  googlescholar    : # example: "https://scholar.google.com/citations?user=1Sf2oM4AAAAJ&hl=en"
-  email            : "ms7201@rit.edu"
+  googlescholar    : https://scholar.google.com/citations?user=lbaywYoAAAAJ&hl=en"
+  email            : "mandirasawkar@gmail.com"
   researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              : 
   bitbucket        :
