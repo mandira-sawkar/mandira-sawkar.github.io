@@ -1,7 +1,8 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Hansard Sexism Analysis"
+excerpt: "LLM-as-a-Judge, Data Analysis, "
+# excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Measured sexist rhetoric across 200 years of UK parliamentary debate by building a psychology-grounded taxonomy, 300-speech human validation set, cross-model LLM judging. Results showed sexism in 54% of anti-suffrage vs. 21% of pro-suffrage speeches. 
